@@ -36,6 +36,7 @@ OS2Vendor: 'PfEd'
 Lookup: 258 0 0 "'kern' Horizontal Kerning lookup 0"  {"'kern' Horizontal Kerning lookup 0 subtable"  } ['kern' ('DFLT' <'dflt' > ) ]
 Lookup: 258 0 0 "'kern' Horizontal Kerning in Latim lookup 0"  {"'kern' Horizontal Kerning in Latim lookup 0 subtable"  } ['kern' ('latn' <'dflt' > ) ]
 DEI: 91125
+DesignSize: 100
 Encoding: AdobeStandard
 UnicodeInterp: none
 NameList: Adobe Glyph List
@@ -62,6 +63,7 @@ StartChar: space
 Encoding: 32 32 0
 Width: 258
 Flags: W
+TeX: 0 0
 LayerCount: 2
 EndChar
 
@@ -69,6 +71,7 @@ StartChar: A
 Encoding: 65 65 1
 Width: 738
 Flags: W
+TeX: 722 12
 HStem: -6 20 -5 20 0 20
 LayerCount: 2
 Fore
@@ -125,6 +128,7 @@ StartChar: B
 Encoding: 66 66 2
 Width: 627
 Flags: W
+TeX: 722 12
 HStem: -5 44<251 313.5 238 356.5> 0 20 666 45<377.5 427.5>
 VStem: 447 132<165.5 229 144.5 243.5> 506 115<524.5 595>
 LayerCount: 2
@@ -178,6 +182,8 @@ StartChar: C
 Encoding: 67 67 3
 Width: 738
 Flags: MW
+TeX: 722 12
+ItalicCorrection: 26
 HStem: -20 44<349.5 447> 667 44<434 539>
 VStem: 82 131<207.5 383 194 417.5>
 LayerCount: 2
@@ -216,6 +222,8 @@ StartChar: D
 Encoding: 68 68 4
 Width: 774
 Flags: W
+TeX: 722 12
+ItalicCorrection: 10
 HStem: -5 43<313.5 411.5 282.5 457.5> 0 20 666 43<408.5 504>
 VStem: 653 131<313.5 504.5>
 LayerCount: 2
@@ -260,6 +268,8 @@ StartChar: E
 Encoding: 69 69 5
 Width: 627
 Flags: W
+TeX: 689 12
+ItalicCorrection: 27
 HStem: -5 20 0 39<249.5 379.5> 346 46<290 369 369 379 278 369> 650 39<392 476 441 476 441 482> 674 20
 LayerCount: 2
 Fore
@@ -334,6 +344,8 @@ StartChar: F
 Encoding: 70 70 6
 Width: 572
 Flags: W
+TeX: 689 12
+ItalicCorrection: 79
 HStem: -5 20 0 20 346 45<304 395 292 409> 669 20<408 408> 674 20<169.5 175 632 642.5>
 LayerCount: 2
 Fore
@@ -402,6 +414,8 @@ StartChar: G
 Encoding: 71 71 7
 Width: 793
 Flags: MW
+TeX: 722 12
+ItalicCorrection: 6
 HStem: -20 44<385.5 465 365 475.5> 667 44<494.5 550>
 VStem: 91 132<262 348.5 210.5 415.5>
 LayerCount: 2
@@ -456,6 +470,8 @@ StartChar: H
 Encoding: 72 72 8
 Width: 812
 Flags: W
+TeX: 689 12
+ItalicCorrection: 81
 HStem: -5 20 0 20 342 50<299 592 285 606> 669 20 674 20<165.5 176 452.5 457.5 595.5 606 882.5 887.5>
 LayerCount: 2
 Fore
@@ -540,6 +556,8 @@ StartChar: I
 Encoding: 73 73 9
 Width: 387
 Flags: W
+TeX: 689 12
+ItalicCorrection: 83
 HStem: -5 20 0 20 669 20 674 20<171.5 182 460 465.5>
 LayerCount: 2
 Fore
@@ -586,6 +604,8 @@ StartChar: J
 Encoding: 74 74 10
 Width: 351
 Flags: W
+TeX: 689 251
+ItalicCorrection: 97
 HStem: -233 58<-59.5 31> 669 20 674 20<145 160 437.5 443>
 LayerCount: 2
 Fore
@@ -625,6 +645,8 @@ StartChar: K
 Encoding: 75 75 11
 Width: 719
 Flags: W
+TeX: 689 12
+ItalicCorrection: 60
 HStem: -5 20 0 20 669 20 674 20<176 190 441 452.5 546.5 560 761.5 772>
 LayerCount: 2
 Fore
@@ -710,6 +732,7 @@ StartChar: L
 Encoding: 76 76 12
 Width: 627
 Flags: W
+TeX: 689 12
 HStem: -5 20 0 38<256 365> 669 20 674 20<168.5 179 464 470.5>
 LayerCount: 2
 Fore
@@ -762,6 +785,8 @@ StartChar: M
 Encoding: 77 77 13
 Width: 867
 Flags: W
+TeX: 689 12
+ItalicCorrection: 62
 HStem: -5 20 0 20 669 20 673 20<341.5 352 916 922.5>
 LayerCount: 2
 Fore
@@ -837,6 +862,8 @@ StartChar: N
 Encoding: 78 78 14
 Width: 793
 Flags: W
+TeX: 689 12
+ItalicCorrection: 95
 HStem: -5 20 0 20 669 20 674 20<129 138.5 327 327 669 673 878 882.5>
 LayerCount: 2
 Fore
@@ -899,6 +926,7 @@ StartChar: O
 Encoding: 79 79 15
 Width: 830
 Flags: MW
+TeX: 722 12
 HStem: -20 44<334 429.5 334 516> 667 44<456 551.5>
 VStem: 75 131<204.5 338.5 199 421> 682 131<364 487.5 270.5 500>
 LayerCount: 2
@@ -924,6 +952,8 @@ StartChar: P
 Encoding: 80 80 16
 Width: 627
 Flags: W
+TeX: 722 12
+ItalicCorrection: 22
 HStem: -5 20 0 20 301 44<403.5 423> 664 45<392.5 443.5>
 VStem: 512 138<483.5 578 447.5 581.5>
 LayerCount: 2
@@ -976,6 +1006,7 @@ StartChar: Q
 Encoding: 81 81 17
 Width: 830
 Flags: MW
+TeX: 722 251
 HStem: -234 44<691.5 704.5> 667 44<456 551.5>
 VStem: 75 131<245 337.5 198 418> 682 131<363 487.5 287.5 499.5>
 LayerCount: 2
@@ -1012,6 +1043,7 @@ StartChar: R
 Encoding: 82 82 18
 Width: 738
 Flags: W
+TeX: 722 12
 HStem: -5 20 0 20 666 43<412.5 483.5 398 484>
 VStem: 564 127<529 581.5 505.5 597.5>
 LayerCount: 2
@@ -1078,6 +1110,8 @@ StartChar: S
 Encoding: 83 83 19
 Width: 498
 Flags: MW
+TeX: 722 12
+ItalicCorrection: 29
 HStem: -20 44<192.5 243 174.5 288> 667 44<322.5 385.5>
 VStem: 130 109<527 532> 333 115<113.5 161.5>
 LayerCount: 2
@@ -1125,6 +1159,8 @@ StartChar: T
 Encoding: 84 84 20
 Width: 682
 Flags: W
+TeX: 722 12
+ItalicCorrection: 107
 HStem: -5 20 0 20 644 49<236 660 269 354 579 615 615 642>
 LayerCount: 2
 Fore
@@ -1187,6 +1223,8 @@ StartChar: U
 Encoding: 85 85 21
 Width: 812
 Flags: W
+TeX: 689 12
+ItalicCorrection: 83
 HStem: -21 50<351.5 435.5> 669 20 674 20<165.5 173 443 450 671 677.5 882 888>
 VStem: 114 123<123.5 180>
 LayerCount: 2
@@ -1243,6 +1281,8 @@ StartChar: V
 Encoding: 86 86 22
 Width: 738
 Flags: W
+TeX: 689 12
+ItalicCorrection: 92
 HStem: 669 20 674 20<115 129 378 381 617.5 628.5 813.5 823.5>
 LayerCount: 2
 Fore
@@ -1291,6 +1331,8 @@ StartChar: W
 Encoding: 87 87 23
 Width: 996
 Flags: W
+TeX: 689 12
+ItalicCorrection: 104
 HStem: 669 20 674 20<120 129 344 354.5 403 413 604 613.5 653.5 661.5 818.5 830 906 918 1088.5 1096>
 LayerCount: 2
 Fore
@@ -1381,6 +1423,8 @@ StartChar: X
 Encoding: 88 88 24
 Width: 719
 Flags: W
+TeX: 689 12
+ItalicCorrection: 76
 HStem: -5 20 0 20 669 20 674 20<147 157.5 410 420 559.5 563 786 789.5>
 LayerCount: 2
 Fore
@@ -1470,6 +1514,8 @@ StartChar: Y
 Encoding: 89 89 25
 Width: 738
 Flags: W
+TeX: 689 12
+ItalicCorrection: 74
 HStem: -5 20 0 20 669 20<287 291.5 695 696 813 813> 674 20<144 149 583 587 796.5 808> 675 20<406 415.5>
 LayerCount: 2
 Fore
@@ -1535,6 +1581,8 @@ StartChar: Z
 Encoding: 90 90 26
 Width: 664
 Flags: W
+TeX: 753 12
+ItalicCorrection: 10
 HStem: -5 20 0 20 651 45<246 661 318 517>
 LayerCount: 2
 Fore
@@ -1583,6 +1631,7 @@ StartChar: AE
 Encoding: 225 198 27
 Width: 977
 Flags: W
+TeX: 689 12
 HStem: -5 20 0 38<556 726> 346 46<598 676 676 686> 347 45<358 474 325 485> 650 39<700 723 723 776.5 699 789> 674 20<388 393 948 953.5>
 LayerCount: 2
 Fore
@@ -1682,6 +1731,8 @@ StartChar: OE
 Encoding: 234 338 28
 Width: 1033
 Flags: W
+TeX: 722 12
+ItalicCorrection: 24
 HStem: -20 45<351.5 420> -5 20 -2 41<691 768.5> 346 46<692 772 772 782 680 772> 665 45<499.5 528 462 571> 670 20<839 923.5> 674 20<1045 1055>
 VStem: 69 145<199.5 339.5 199.5 340>
 LayerCount: 2
@@ -1754,6 +1805,7 @@ StartChar: Oslash
 Encoding: 233 216 29
 Width: 830
 Flags: MW
+TeX: 753 52
 HStem: -20 44<367 434.5 367 521.5> 667 44<461 528.5>
 VStem: 76 131<252 334 248.5 418> 691 131<363.5 439.5 271 444>
 LayerCount: 2
@@ -2910,6 +2962,7 @@ StartChar: Lslash
 Encoding: 232 321 46
 Width: 627
 Flags: W
+TeX: 689 12
 HStem: -5 20 0 38<256 365> 669 20 674 20<168.5 179 464 470.5>
 LayerCount: 2
 Fore
@@ -3871,6 +3924,7 @@ StartChar: a
 Encoding: 97 97 62
 Width: 516
 Flags: MW
+TeX: 465 12
 HStem: -19 89<73 179.5>
 VStem: 28 102<101 139.5> 282 100<16 113.5>
 LayerCount: 2
@@ -3909,6 +3963,7 @@ StartChar: b
 Encoding: 98 98 63
 Width: 553
 Flags: MW
+TeX: 774 12
 HStem: -19 58<181.5 221> 431 20<402 466>
 VStem: 422 109<306 339>
 LayerCount: 2
@@ -3942,6 +3997,8 @@ StartChar: c
 Encoding: 99 99 64
 Width: 424
 Flags: MW
+TeX: 465 12
+ItalicCorrection: 12
 HStem: -19 70<201 218.5> 412 39<256 299>
 VStem: 34 108<126 223 126 223.5>
 LayerCount: 2
@@ -3968,6 +4025,8 @@ StartChar: d
 Encoding: 100 100 65
 Width: 553
 Flags: W
+TeX: 774 12
+ItalicCorrection: 52
 HStem: -19 79<168 171.5> 411 40<304 341.5> 414 20<410 410>
 LayerCount: 2
 Fore
@@ -4006,6 +4065,8 @@ StartChar: e
 Encoding: 101 101 66
 Width: 424
 Flags: MW
+TeX: 465 12
+ItalicCorrection: 3
 HStem: -19 64<199.5 219> 412 39<276.5 302.5>
 VStem: 33 109<115.5 154 115.5 175> 336 91<341 366>
 LayerCount: 2
@@ -4037,6 +4098,8 @@ StartChar: f
 Encoding: 102 102 67
 Width: 295
 Flags: MW
+TeX: 753 251
+ItalicCorrection: 178
 HStem: -255 60<-10 -8.5> 375 45<42 129 60 120 244 322> 724 44<341.5 357>
 LayerCount: 2
 Fore
@@ -4080,6 +4143,8 @@ StartChar: g
 Encoding: 103 103 68
 Width: 480
 Flags: W
+TeX: 465 251
+ItalicCorrection: 29
 HStem: -270 40<142.5 217.5 142.5 257> 412 39<261 289 212.5 295.5>
 VStem: -40 88<-164.5 -118.5 -167.5 -117> 68 96<231 251.5 213 318> 91 95<24 90> 308 108<-174 -130.5> 333 101<240.5 359>
 LayerCount: 2
@@ -4130,6 +4195,7 @@ StartChar: h
 Encoding: 104 104 69
 Width: 553
 Flags: W
+TeX: 774 12
 HStem: -19 64<253 323.5> -14 20 381 70<370 472.5>
 VStem: 416 109<311.5 348.5>
 LayerCount: 2
@@ -4174,6 +4240,8 @@ StartChar: i
 Encoding: 105 105 70
 Width: 313
 Flags: W
+TeX: 722 12
+ItalicCorrection: 3
 HStem: -19 20 431 20<180 219> 582 127<235.5 270.5 235.5 271>
 VStem: 37 113<18 89.5> 142 113<337.5 415> 190 127<628 662.5>
 LayerCount: 2
@@ -4213,6 +4281,8 @@ StartChar: j
 Encoding: 106 106 71
 Width: 295
 Flags: MW
+TeX: 722 251
+ItalicCorrection: 32
 HStem: -270 57<-60.5 6> 431 20<197.5 235> 582 127<247 282>
 VStem: 201 127<628 662.5>
 LayerCount: 2
@@ -4250,6 +4320,7 @@ StartChar: k
 Encoding: 107 107 72
 Width: 535
 Flags: W
+TeX: 774 12
 HStem: -19 70<367 439.5> -13 20 387 64<369 464.5>
 VStem: 425 96<327 356>
 LayerCount: 2
@@ -4295,6 +4366,8 @@ StartChar: l
 Encoding: 108 108 73
 Width: 295
 Flags: MW
+TeX: 774 12
+ItalicCorrection: 50
 HStem: -17 20
 VStem: 39 109<26.5 103>
 LayerCount: 2
@@ -4322,6 +4395,7 @@ StartChar: m
 Encoding: 109 109 74
 Width: 812
 Flags: W
+TeX: 465 12
 HStem: -19 20 -13 20 381 70
 VStem: 387 101<333.5 405> 650 105
 LayerCount: 2
@@ -4376,6 +4450,7 @@ StartChar: n
 Encoding: 110 110 75
 Width: 553
 Flags: W
+TeX: 465 12
 HStem: -19 20 -13 20 381 70
 VStem: 153 91<309 413.5> 294 114<19 99> 396 108<351 404>
 LayerCount: 2
@@ -4421,6 +4496,7 @@ StartChar: o
 Encoding: 111 111 76
 Width: 479
 Flags: MW
+TeX: 465 12
 HStem: -19 38<178.5 209 178.5 263> 431 20<221 334.5>
 VStem: 37 108<111.5 133 71.5 244> 337 108<291.5 322 190 357>
 LayerCount: 2
@@ -4446,6 +4522,7 @@ StartChar: p
 Encoding: 112 112 77
 Width: 553
 Flags: W
+TeX: 525 251
 HStem: -270 20 -264 20 -19 40<229.5 258> -10 20 402 49<324.5 460.5>
 VStem: 419 109<276 329.5>
 LayerCount: 2
@@ -4500,6 +4577,7 @@ StartChar: q
 Encoding: 113 113 78
 Width: 535
 Flags: W
+TeX: 465 251
 HStem: -270 20 -265 20 -19 49<158.5 163.5> 431 20<278 379.5 506 516 516 521>
 LayerCount: 2
 Fore
@@ -4544,6 +4622,8 @@ StartChar: r
 Encoding: 114 114 79
 Width: 387
 Flags: MW
+TeX: 465 12
+ItalicCorrection: 34
 HStem: -13 20 355 96
 LayerCount: 2
 Fore
@@ -4578,6 +4658,7 @@ StartChar: s
 Encoding: 115 115 80
 Width: 332
 Flags: MW
+TeX: 465 12
 HStem: -19 49<146.5 147.5> 394 57<165 254.5>
 VStem: 64 68<268 364.5> 207 82<67 162>
 LayerCount: 2
@@ -4609,6 +4690,8 @@ StartChar: t
 Encoding: 116 116 81
 Width: 313
 Flags: MW
+TeX: 557 12
+ItalicCorrection: 26
 HStem: -19 20 376 45<62 143 79 129 241 317>
 VStem: 40 111<27 93>
 LayerCount: 2
@@ -4649,6 +4732,7 @@ StartChar: u
 Encoding: 117 117 82
 Width: 535
 Flags: W
+TeX: 465 12
 HStem: -19 20 426 20<451 478.5> 431 20<178 218>
 LayerCount: 2
 Fore
@@ -4693,6 +4777,7 @@ StartChar: v
 Encoding: 118 118 83
 Width: 572
 Flags: W
+TeX: 465 12
 HStem: -19 89<271 288> 367 84<152.5 153 153 172 152.5 260> 424 20<256 267.5> 430 20<329.5 338.5 475 510.5>
 VStem: 35 52<252 332> 131 84<62 189.5> 483 69<271 395>
 LayerCount: 2
@@ -4735,6 +4820,7 @@ StartChar: w
 Encoding: 119 119 84
 Width: 774
 Flags: W
+TeX: 465 12
 HStem: -19 88<204.5 306.5 498.5 503> 367 84<149 152 152 170.5 149 254> 372 79 424 20
 VStem: 28 52<254.5 332.5> 124 84<61.5 190.5> 371 59<147.5 234> 526 45<344.5 351.5> 697 70<245 395>
 LayerCount: 2
@@ -4792,6 +4878,8 @@ StartChar: x
 Encoding: 120 120 85
 Width: 479
 Flags: W
+TeX: 465 12
+ItalicCorrection: 17
 HStem: -19 70<295.5 381> -18 20 381 70
 LayerCount: 2
 Fore
@@ -4836,6 +4924,7 @@ StartChar: y
 Encoding: 121 121 86
 Width: 498
 Flags: W
+TeX: 465 251
 HStem: -270 78<13.5 96.5> 361 89<130 142> 431 20<420.5 453.5>
 LayerCount: 2
 Fore
@@ -4869,6 +4958,8 @@ StartChar: z
 Encoding: 122 122 87
 Width: 424
 Flags: W
+TeX: 465 12
+ItalicCorrection: 29
 HStem: -5 20 -4 20 0 40
 LayerCount: 2
 Fore
@@ -4902,6 +4993,7 @@ StartChar: ae
 Encoding: 241 230 88
 Width: 701
 Flags: W
+TeX: 465 12
 HStem: -19 64<472.5 492> -19 89<77 183.5> 412 39<562.5 577>
 VStem: 32 102<101 139.5> 306 109<115 131.5> 608 92<331.5 376>
 LayerCount: 2
@@ -4948,6 +5040,8 @@ StartChar: oe
 Encoding: 250 339 89
 Width: 719
 Flags: W
+TeX: 465 12
+ItalicCorrection: 1
 HStem: -19 38<178.5 209 178.5 223> -19 64<492.5 512> 412 39<568.5 595.5>
 VStem: 37 108<109.5 133 71.5 242> 629 91<341 366>
 LayerCount: 2
@@ -4988,6 +5082,7 @@ StartChar: oslash
 Encoding: 249 248 90
 Width: 480
 Flags: MW
+TeX: 465 12
 HStem: -19 38<183 212.5 183 263.5> 414 37<270.5 298>
 LayerCount: 2
 Fore
@@ -5028,6 +5123,8 @@ StartChar: germandbls
 Encoding: 251 223 91
 Width: 535
 Flags: W
+TeX: 774 251
+ItalicCorrection: 62
 HStem: -270 63<-96 -29> -19 47<274 373> 727 48<377 433.5>
 VStem: 332 91<345 420.5> 425 93<85.5 186.5> 507 90<628 657>
 LayerCount: 2
@@ -5069,6 +5166,7 @@ StartChar: dotlessi
 Encoding: 245 305 92
 Width: 313
 Flags: W
+TeX: 465 12
 HStem: -19 20 431 20<191 228.5>
 VStem: 50 109<18 91.5> 151 113<337 414.5>
 LayerCount: 2
@@ -5100,6 +5198,8 @@ StartChar: fi
 Encoding: 174 64257 93
 Width: 556
 Flags: W
+TeX: 753 251
+ItalicCorrection: 8
 HStem: -255 60<7 8.5> -19 20 375 45<59 145 77 137 260 334 334 355> 431 20<474 497.5> 724 44<386 396>
 VStem: 316 112<18 89.5> 420 113<338.5 414.5>
 LayerCount: 2
@@ -5155,6 +5255,8 @@ StartChar: fl
 Encoding: 175 64258 94
 Width: 556
 Flags: MW
+TeX: 774 251
+ItalicCorrection: 60
 HStem: -255 60<4 5.5> -17 20 375 45<56 143 74 134 258 336> 724 44<355.5 371.5>
 VStem: 310 109<26.5 103.5>
 LayerCount: 2
@@ -5913,6 +6015,8 @@ StartChar: lslash
 Encoding: 248 322 110
 Width: 295
 Flags: MW
+TeX: 774 12
+ItalicCorrection: 48
 HStem: -17 20
 VStem: 37 109<26.5 96>
 LayerCount: 2
@@ -6716,6 +6820,7 @@ StartChar: one
 Encoding: 49 49 127
 Width: 498
 Flags: W
+TeX: 658 12
 HStem: -6 20 -5 20<375 395> 0 20
 LayerCount: 2
 Fore
@@ -6753,6 +6858,7 @@ StartChar: two
 Encoding: 50 50 128
 Width: 498
 Flags: W
+TeX: 658 12
 HStem: -5 20 0 20 587 84<272.5 285.5>
 VStem: 366 121<474 506.5>
 LayerCount: 2
@@ -6796,6 +6902,7 @@ StartChar: three
 Encoding: 51 51 129
 Width: 498
 Flags: W
+TeX: 658 12
 HStem: -17 49<52.5 202> 599 70<280.5 288.5>
 VStem: 312 125<216.5 244> 345 114<514 539.5>
 LayerCount: 2
@@ -6835,6 +6942,8 @@ StartChar: four
 Encoding: 52 52 130
 Width: 498
 Flags: MW
+TeX: 658 12
+ItalicCorrection: 6
 HStem: -5 20 179 85<36.5 292 107 268 107 375 398 454>
 LayerCount: 2
 Fore
@@ -6872,6 +6981,8 @@ StartChar: five
 Encoding: 53 53 131
 Width: 498
 Flags: MW
+TeX: 658 12
+ItalicCorrection: 22
 HStem: -13 20 567 96<251 504 255 487>
 VStem: 324 118<223.5 262.5>
 LayerCount: 2
@@ -6906,6 +7017,8 @@ StartChar: six
 Encoding: 54 54 132
 Width: 498
 Flags: MW
+TeX: 658 12
+ItalicCorrection: 10
 HStem: -17 39<198.5 256 198.5 286.5> 315 49<244 362>
 VStem: 45 101<127 164 101.5 280> 343 125<150 236>
 LayerCount: 2
@@ -6936,6 +7049,8 @@ StartChar: seven
 Encoding: 55 55 133
 Width: 498
 Flags: MW
+TeX: 658 12
+ItalicCorrection: 60
 HStem: -13 20 562 101<117 551 179 405>
 LayerCount: 2
 Fore
@@ -6961,6 +7076,8 @@ StartChar: eight
 Encoding: 56 56 134
 Width: 498
 Flags: W
+TeX: 658 12
+ItalicCorrection: 3
 HStem: -17 40<208 268.5 208 302> 630 39<296 351.5>
 VStem: 50 84<104.5 171 104.5 174.5> 122 107<506 541.5> 340 119<112 165.5> 418 83<495 554.5>
 LayerCount: 2
@@ -6994,6 +7111,8 @@ StartChar: nine
 Encoding: 57 57 135
 Width: 498
 Flags: MW
+TeX: 689 12
+ItalicCorrection: 10
 HStem: -10 20 299 49<194 310> 639 40<298 355>
 VStem: 86 126<426 512.5 426 513.5> 408 101<500 535 394.5 561>
 LayerCount: 2
@@ -7021,6 +7140,7 @@ StartChar: zero
 Encoding: 48 48 136
 Width: 498
 Flags: MW
+TeX: 658 12
 HStem: -17 107<195 240> 562 107<306 350.5>
 VStem: 53 59<192.5 238.5> 436 59<401 457.5>
 LayerCount: 2
@@ -7048,6 +7168,7 @@ StartChar: sterling
 Encoding: 163 163 137
 Width: 498
 Flags: W
+TeX: 658 12
 HStem: -15 88<327.5 404.5> 316 45<87 149 87 150 241 364> 610 45<347.5 371.5>
 VStem: 395 90<529.5 590> 428 42<97.5 110.5>
 LayerCount: 2
@@ -7094,6 +7215,7 @@ StartChar: dollar
 Encoding: 36 36 138
 Width: 498
 Flags: MW
+TeX: 722 86
 HStem: -13 49<194 273.5 194 273.5> 413 20<277 277>
 VStem: 153 83<449 550> 347 83<146.5 153>
 LayerCount: 2
@@ -7146,6 +7268,7 @@ StartChar: cent
 Encoding: 162 162 139
 Width: 498
 Flags: MW
+TeX: 658 12
 HStem: -16 20
 VStem: 98 101<263.5 314.5 263.5 336.5>
 LayerCount: 2
@@ -7191,6 +7314,8 @@ StartChar: florin
 Encoding: 166 402 140
 Width: 498
 Flags: MW
+TeX: 753 251
+ItalicCorrection: 74
 HStem: -255 60<31 94> 396 46<145.5 233 159 226 335 408> 725 44<442.5 455>
 LayerCount: 2
 Fore
@@ -7295,6 +7420,8 @@ StartChar: yen
 Encoding: 165 165 142
 Width: 498
 Flags: W
+TeX: 689 12
+ItalicCorrection: 95
 HStem: -6 20 0 20 138 39<94 210 104 201 324 414> 246 39<134 230 123 242> 669 20
 LayerCount: 2
 Fore
@@ -7491,6 +7618,7 @@ StartChar: period
 Encoding: 46 46 146
 Width: 258
 Flags: MW
+TeX: 125 12
 HStem: -15 20
 LayerCount: 2
 Fore
@@ -7508,6 +7636,7 @@ StartChar: colon
 Encoding: 58 58 147
 Width: 258
 Flags: MW
+TeX: 465 12
 HStem: -15 20
 LayerCount: 2
 Fore
@@ -7529,6 +7658,8 @@ StartChar: periodcentered
 Encoding: 180 183 148
 Width: 111
 Flags: W
+TeX: 404 -255
+ItalicCorrection: 36
 LayerCount: 2
 Fore
 SplineSet
@@ -7559,6 +7690,7 @@ StartChar: ellipsis
 Encoding: 188 8230 150
 Width: 830
 Flags: MW
+TeX: 125 12
 HStem: -15 20
 LayerCount: 2
 Fore
@@ -7585,6 +7717,7 @@ StartChar: comma
 Encoding: 44 44 151
 Width: 258
 Flags: MW
+TeX: 125 149
 VStem: 139 70<-37 62.5>
 LayerCount: 2
 Fore
@@ -7606,6 +7739,7 @@ StartChar: semicolon
 Encoding: 59 59 152
 Width: 258
 Flags: MW
+TeX: 465 149
 VStem: 125 70<-37 62.5>
 LayerCount: 2
 Fore
@@ -7631,6 +7765,8 @@ StartChar: quoteleft
 Encoding: 96 8216 153
 Width: 258
 Flags: MW
+TeX: 689 -423
+ItalicCorrection: 71
 HStem: 675 20<329 329>
 VStem: 120 79<494 588>
 LayerCount: 2
@@ -7653,6 +7789,8 @@ StartChar: quotedblright
 Encoding: 186 8221 154
 Width: 424
 Flags: MW
+TeX: 689 -423
+ItalicCorrection: 81
 HStem: 675 20<170 217 394 441>
 VStem: 202 79<523 617.5> 426 79<523 617.5>
 LayerCount: 2
@@ -7684,6 +7822,8 @@ StartChar: quotedblleft
 Encoding: 170 8220 155
 Width: 424
 Flags: MW
+TeX: 689 -423
+ItalicCorrection: 104
 HStem: 675 20<320 320 528 528>
 VStem: 111 79<494 588> 319 79<493.5 588>
 LayerCount: 2
@@ -7715,6 +7855,7 @@ StartChar: quotedblbase
 Encoding: 185 8222 156
 Width: 424
 Flags: MW
+TeX: 125 149
 VStem: 50 79<-18.5 -5.5> 274 79<-18.5 -5.5>
 LayerCount: 2
 Fore
@@ -7743,6 +7884,8 @@ StartChar: exclam
 Encoding: 33 33 157
 Width: 258
 Flags: MW
+TeX: 689 12
+ItalicCorrection: 60
 HStem: -19 20 675 20<221.5 266.5>
 LayerCount: 2
 Fore
@@ -7766,6 +7909,7 @@ StartChar: exclamdown
 Encoding: 161 161 158
 Width: 258
 Flags: W
+TeX: 465 251
 LayerCount: 2
 Fore
 SplineSet
@@ -7788,6 +7932,8 @@ StartChar: question
 Encoding: 63 63 159
 Width: 387
 Flags: MW
+TeX: 689 12
+ItalicCorrection: 36
 HStem: -19 20 192 85<192.5 266> 625 70<235 337>
 VStem: 107 51<315.5 331 304.5 371.5> 371 52<560 581.5 511.5 590>
 LayerCount: 2
@@ -7824,6 +7970,7 @@ StartChar: questiondown
 Encoding: 191 191 160
 Width: 387
 Flags: MW
+TeX: 465 251
 HStem: -247 70<6 108> 172 85<77.5 150>
 VStem: -80 52<-133.5 -112 -141.5 -63> 185 51<117.5 133 77 144>
 LayerCount: 2
@@ -7860,6 +8007,7 @@ StartChar: guillemotright
 Encoding: 187 187 161
 Width: 424
 Flags: W
+TeX: 404 -72
 LayerCount: 2
 Fore
 SplineSet
@@ -7887,6 +8035,7 @@ StartChar: guillemotleft
 Encoding: 171 171 162
 Width: 424
 Flags: W
+TeX: 404 -72
 LayerCount: 2
 Fore
 SplineSet
@@ -7913,6 +8062,7 @@ StartChar: guilsinglright
 Encoding: 173 8250 163
 Width: 258
 Flags: W
+TeX: 404 -72
 LayerCount: 2
 Fore
 SplineSet
@@ -7932,6 +8082,7 @@ StartChar: guilsinglleft
 Encoding: 172 8249 164
 Width: 258
 Flags: W
+TeX: 404 -72
 LayerCount: 2
 Fore
 SplineSet
@@ -7950,6 +8101,8 @@ StartChar: slash
 Encoding: 47 47 165
 Width: 498
 Flags: MW
+TeX: 689 52
+ItalicCorrection: 105
 HStem: 675 20<531 604 604 604>
 LayerCount: 2
 Fore
@@ -7966,6 +8119,7 @@ StartChar: hyphen
 Encoding: 45 45 166
 Width: 258
 Flags: MW
+TeX: 270 -188
 HStem: 199 72<35.5 224 45 222>
 LayerCount: 2
 Fore
@@ -8009,6 +8163,7 @@ StartChar: endash
 Encoding: 177 8211 168
 Width: 498
 Flags: MW
+TeX: 270 -188
 HStem: 199 72<59.5 452 69 450>
 LayerCount: 2
 Fore
@@ -8030,6 +8185,7 @@ StartChar: emdash
 Encoding: 208 8212 169
 Width: 830
 Flags: MW
+TeX: 270 -188
 HStem: 199 72<57.5 789 67 787>
 LayerCount: 2
 Fore
@@ -8051,6 +8207,8 @@ StartChar: parenleft
 Encoding: 40 40 170
 Width: 295
 Flags: MW
+TeX: 753 184
+ItalicCorrection: 130
 VStem: 39 106<152 226 88 322.5>
 LayerCount: 2
 Fore
@@ -8070,6 +8228,7 @@ StartChar: parenright
 Encoding: 41 41 171
 Width: 295
 Flags: MW
+TeX: 753 184
 VStem: 170 106<349.5 424 253.5 487>
 LayerCount: 2
 Fore
@@ -8089,6 +8248,8 @@ StartChar: bracketleft
 Encoding: 91 91 172
 Width: 295
 Flags: W
+TeX: 722 149
+ItalicCorrection: 114
 LayerCount: 2
 Fore
 SplineSet
@@ -8130,6 +8291,8 @@ StartChar: bracketright
 Encoding: 93 93 173
 Width: 295
 Flags: W
+TeX: 722 149
+ItalicCorrection: 79
 LayerCount: 2
 Fore
 SplineSet
@@ -8171,6 +8334,8 @@ StartChar: ampersand
 Encoding: 38 38 174
 Width: 701
 Flags: MW
+TeX: 689 12
+ItalicCorrection: 17
 HStem: -21 79<335.5 347.5> 426 20 642 40<360 403>
 VStem: 74 104<198 223.5> 194 95<513.5 553 501.5 581.5> 522 51<170.5 198 161 200.5>
 LayerCount: 2
@@ -8214,6 +8379,7 @@ StartChar: section
 Encoding: 167 167 175
 Width: 498
 Flags: MW
+TeX: 689 251
 HStem: -255 58<242 251.5> 646 58<253.5 276>
 VStem: 52 62<455 498 455 517.5> 157 62<511 610> 303 62<-152 -51> 407 62<-26 17>
 LayerCount: 2
@@ -8257,6 +8423,7 @@ StartChar: dagger
 Encoding: 178 8224 176
 Width: 498
 Flags: MW
+TeX: 689 251
 HStem: 684 20<251 287>
 LayerCount: 2
 Fore
@@ -8294,6 +8461,7 @@ StartChar: daggerdbl
 Encoding: 179 8225 177
 Width: 498
 Flags: MW
+TeX: 689 184
 HStem: -10 20 684 20<245 281>
 LayerCount: 2
 Fore
@@ -8336,6 +8504,8 @@ StartChar: asterisk
 Encoding: 42 42 178
 Width: 498
 Flags: MW
+TeX: 689 -255
+ItalicCorrection: 24
 HStem: 412 20 672 20<328 361.5>
 LayerCount: 2
 Fore
@@ -8402,6 +8572,8 @@ StartChar: quotesingle
 Encoding: 169 39 179
 Width: 258
 Flags: MW
+TeX: 689 -423
+ItalicCorrection: 38
 HStem: 684 20<243 265.5>
 LayerCount: 2
 Fore
@@ -8424,6 +8596,8 @@ StartChar: quotedbl
 Encoding: 34 34 180
 Width: 424
 Flags: MW
+TeX: 689 -423
+ItalicCorrection: 20
 HStem: 684 20<224 246.5 391 413.5>
 LayerCount: 2
 Fore
@@ -8458,6 +8632,8 @@ StartChar: at
 Encoding: 64 64 181
 Width: 830
 Flags: W
+TeX: 658 149
+ItalicCorrection: 17
 HStem: -157 76<397 456.5> -19 85<586 610.5 586 631.5> -9 55<351.5 371.5> 435 55<483 506 452 514.5> 568 76<442 577>
 VStem: 9 108<152 242.5 151 323.5> 208 106<94 128 85 176.5> 768 80<300 402>
 LayerCount: 2
@@ -8505,6 +8681,8 @@ StartChar: numbersign
 Encoding: 35 35 182
 Width: 498
 Flags: MW
+TeX: 658 12
+ItalicCorrection: 8
 HStem: -15 20 201 81<57.5 153 84 126 84 174 202 300 373 408> 375 82<117 212 148 184 148 233 260 358 432 465>
 LayerCount: 2
 Fore
@@ -8596,6 +8774,7 @@ StartChar: plus
 Encoding: 43 43 184
 Width: 830
 Flags: MW
+TeX: 525 12
 HStem: -3 20 214 81<165.5 374 170 374 455 659>
 VStem: 374 81<10 214 295 498>
 LayerCount: 2
@@ -8720,6 +8899,7 @@ StartChar: equal
 Encoding: 61 61 188
 Width: 830
 Flags: MW
+TeX: 366 -123
 HStem: 124 81<165.5 657 170 657> 285 81<165.5 657 170 657>
 LayerCount: 2
 Fore
@@ -8808,6 +8988,7 @@ StartChar: paragraph
 Encoding: 182 182 190
 Width: 498
 Flags: MW
+TeX: 753 149
 HStem: 704 41<334 488 420 488 420 420>
 VStem: 295 39<-159 279 279 279> 381 39<-159 704 -159 704>
 LayerCount: 2
@@ -8835,6 +9016,8 @@ StartChar: currency
 Encoding: 168 164 191
 Width: 498
 Flags: MW
+TeX: 608 -72
+ItalicCorrection: 39
 HStem: 106 100<249 299.5> 479 100<253.5 301.5 253.5 311.5>
 VStem: 38 100<317.5 363> 410 100<317 366.5 317 380>
 LayerCount: 2
@@ -8873,6 +9056,7 @@ StartChar: quotesinglbase
 Encoding: 184 8218 192
 Width: 258
 Flags: MW
+TeX: 125 149
 VStem: 70 79<-40 54.5>
 LayerCount: 2
 Fore
@@ -8893,6 +9077,8 @@ StartChar: quoteright
 Encoding: 39 8217 193
 Width: 258
 Flags: MW
+TeX: 689 -423
+ItalicCorrection: 53
 HStem: 675 20<201 248>
 VStem: 233 79<523 617.5>
 LayerCount: 2
@@ -8915,6 +9101,8 @@ StartChar: braceleft
 Encoding: 123 123 194
 Width: 498
 Flags: W
+TeX: 753 251
+ItalicCorrection: 78
 VStem: 119 134<-107.5 -81 -115.5 -76.5> 193 121<119.5 154.5>
 LayerCount: 2
 Fore
@@ -8947,6 +9135,7 @@ StartChar: braceright
 Encoding: 125 125 195
 Width: 498
 Flags: W
+TeX: 753 251
 VStem: 224 121<366.5 401.5 366.5 405.5> 285 134<602 628.5 597.5 636.5>
 LayerCount: 2
 Fore
@@ -8979,6 +9168,8 @@ StartChar: ordfeminine
 Encoding: 227 170 196
 Width: 424
 Flags: MW
+TeX: 689 -328
+ItalicCorrection: 20
 HStem: 426 20<409.5 412.5>
 VStem: 100 83<407 445.5>
 LayerCount: 2
@@ -9019,6 +9210,7 @@ StartChar: ordmasculine
 Encoding: 235 186 197
 Width: 424
 Flags: MW
+TeX: 689 -328
 HStem: 328 30<224 247 224 286> 645 30<289.5 312>
 VStem: 116 83<425 444.5 399.5 492> 338 83<559 580 486.5 603>
 LayerCount: 2
@@ -9326,6 +9518,8 @@ StartChar: fraction
 Encoding: 164 8260 202
 Width: 111
 Flags: MW
+TeX: 658 12
+ItalicCorrection: 265
 HStem: -7 20
 LayerCount: 2
 Fore
@@ -9350,6 +9544,7 @@ StartChar: percent
 Encoding: 37 37 203
 Width: 830
 Flags: W
+TeX: 689 12
 HStem: -18 41<570.5 598 570.5 638.5> 283 41<636 667.5> 313 41<210.5 238 210.5 279.5> 623 41<276 307>
 VStem: 101 75<413 436.5 398.5 480.5> 344 76<534.5 566 470 579> 461 75<80 103 66.5 145.5> 704 76<197 228.5 135 240.5>
 LayerCount: 2
@@ -9393,6 +9588,7 @@ StartChar: perthousand
 Encoding: 189 8240 204
 Width: 1143
 Flags: W
+TeX: 689 12
 HStem: -13 41<530.5 558 530.5 599 884.5 912> 288 41<596.5 627 950.5 981> 313 41<209.5 237 209.5 278.5> 623 41<275 306>
 VStem: 100 75<413 436.5 398.5 480.5> 343 76<534.5 566 470 579> 421 75<85 108.5 72 177.5> 664 76<202 233.5 140 244.5> 775 75<85 108.5 72 178> 1018 76<202 233.5 140 244.5>
 LayerCount: 2
@@ -9447,6 +9643,7 @@ StartChar: backslash
 Encoding: 92 92 205
 Width: 498
 Flags: W
+TeX: 722 12
 LayerCount: 2
 Fore
 SplineSet
@@ -9468,6 +9665,7 @@ StartChar: dieresis
 Encoding: 200 168 206
 Width: 498
 Flags: W
+TeX: 689 -536
 LayerCount: 2
 Fore
 SplineSet
@@ -9488,6 +9686,7 @@ StartChar: dotaccent
 Encoding: 199 729 207
 Width: 498
 Flags: W
+TeX: 689 -536
 LayerCount: 2
 Fore
 SplineSet
@@ -9503,6 +9702,7 @@ StartChar: ring
 Encoding: 202 730 208
 Width: 498
 Flags: MW
+TeX: 722 -496
 HStem: 507 47<337 369 337 382> 669 47<338 369.5>
 VStem: 249 47<596.5 628 596.5 641> 411 47<595.5 627.5>
 LayerCount: 2
@@ -9525,6 +9725,8 @@ StartChar: acute
 Encoding: 194 180 209
 Width: 498
 Flags: W
+TeX: 753 -536
+ItalicCorrection: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -9546,6 +9748,7 @@ StartChar: grave
 Encoding: 193 96 210
 Width: 498
 Flags: W
+TeX: 753 -536
 LayerCount: 2
 Fore
 SplineSet
@@ -9567,6 +9770,7 @@ StartChar: circumflex
 Encoding: 195 710 211
 Width: 498
 Flags: W
+TeX: 774 -536
 LayerCount: 2
 Fore
 SplineSet
@@ -9599,6 +9803,8 @@ StartChar: caron
 Encoding: 207 711 212
 Width: 498
 Flags: W
+TeX: 774 -536
+ItalicCorrection: 38
 LayerCount: 2
 Fore
 SplineSet
@@ -9629,6 +9835,8 @@ StartChar: breve
 Encoding: 198 728 213
 Width: 498
 Flags: MW
+TeX: 658 -536
+ItalicCorrection: 3
 HStem: 525 45<338 377>
 LayerCount: 2
 Fore
@@ -9649,6 +9857,7 @@ StartChar: tilde
 Encoding: 196 732 214
 Width: 498
 Flags: W
+TeX: 689 -536
 HStem: 534 84<390.5 391.5> 616 84<278.5 283> 673 20<464.5 467.5>
 LayerCount: 2
 Fore
@@ -9678,6 +9887,8 @@ StartChar: hungarumlaut
 Encoding: 205 733 215
 Width: 498
 Flags: W
+TeX: 753 -536
+ItalicCorrection: 88
 LayerCount: 2
 Fore
 SplineSet
@@ -9710,6 +9921,7 @@ StartChar: cedilla
 Encoding: 203 184 216
 Width: 498
 Flags: MW
+TeX: 25 184
 HStem: -181 38<200 218>
 VStem: 251 63<-117.5 -97.5>
 LayerCount: 2
@@ -9738,6 +9950,7 @@ StartChar: ogonek
 Encoding: 206 731 217
 Width: 498
 Flags: MW
+TeX: 25 184
 HStem: -182 52<297 322.5 297 334>
 VStem: 201 57<-93 -65.5>
 LayerCount: 2
@@ -9760,6 +9973,7 @@ StartChar: macron
 Encoding: 197 175 218
 Width: 498
 Flags: MW
+TeX: 658 -597
 HStem: 587 57<205 466 220 450>
 LayerCount: 2
 Fore
@@ -9898,6 +10112,7 @@ StartChar: bullet
 Encoding: 183 8226 222
 Width: 498
 Flags: W
+TeX: 525 -188
 LayerCount: 2
 Fore
 SplineSet
@@ -10330,6 +10545,7 @@ StartChar: less
 Encoding: 60 60 237
 Width: 996
 Flags: W
+TeX: 608 12
 LayerCount: 2
 Fore
 SplineSet
@@ -10348,6 +10564,7 @@ StartChar: greater
 Encoding: 62 62 238
 Width: 996
 Flags: W
+TeX: 608 12
 LayerCount: 2
 Fore
 SplineSet
@@ -10390,6 +10607,7 @@ StartChar: asciicircum
 Encoding: 94 94 240
 Width: 498
 Flags: W
+TeX: 753 -496
 LayerCount: 2
 Fore
 SplineSet
@@ -10410,6 +10628,7 @@ StartChar: bar
 Encoding: 124 124 241
 Width: 498
 Flags: MW
+TeX: 753 251
 VStem: 223 51<-250 750 -250 750>
 LayerCount: 2
 Fore
@@ -10447,6 +10666,8 @@ StartChar: underscore
 Encoding: 95 95 243
 Width: 498
 Flags: MW
+TeX: -199 251
+ItalicCorrection: 1
 HStem: -250 51<-1 499 -1 499>
 LayerCount: 2
 Fore
@@ -10463,6 +10684,7 @@ StartChar: asciitilde
 Encoding: 126 126 244
 Width: 996
 Flags: W
+TeX: 722 -597
 HStem: 620 63<584.5 591> 661 61<403.5 407>
 LayerCount: 2
 Fore
