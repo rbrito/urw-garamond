@@ -3,7 +3,7 @@ FontName: GaramondNo8-Medium-Italic
 FullName: GaramondNo8 Medium Italic
 FamilyName: GaramondNo8
 Weight: Medium
-Copyright: Copyright 2000 (URW)++ Design & Development\nCopyright Â© 2005 Walter Schmidt\nCopyright Â© 2010 RogÃ©rio Theodoro de Brito
+Copyright: Copyright © 2000 (URW)++ Design & Development\nCopyright © 2005 Walter Schmidt\nCopyright © 2010 Rogério Theodoro de Brito
 Version: 1.06
 ItalicAngle: -16
 UnderlinePosition: -225
@@ -13,12 +13,13 @@ Descent: 200
 LayerCount: 2
 Layer: 0 0 "Fundo"  1
 Layer: 1 0 "Frente"  0
+NeedsXUIDChange: 1
 UniqueID: 4038273
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1094484720
-ModificationTime: 1094484720
+ModificationTime: 1270675035
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -36,6 +37,7 @@ OS2Vendor: 'PfEd'
 Lookup: 258 0 0 "'kern' Horizontal Kerning lookup 0"  {"'kern' Horizontal Kerning lookup 0 subtable"  } ['kern' ('DFLT' <'dflt' > ) ]
 Lookup: 258 0 0 "'kern' Horizontal Kerning in Latim lookup 0"  {"'kern' Horizontal Kerning in Latim lookup 0 subtable"  } ['kern' ('latn' <'dflt' > ) ]
 DEI: 91125
+LangName: 1033 "" "" "" "" "" "" "" "" "" "" "" "" "" "Distribution and Modification of the URW Garamond fonts are subject to the Alladin Free Public License <http://www.artifex.com/downloads/doc/Public.htm>." "http://www.artifex.com/downloads/doc/Public.htm" 
 DesignSize: 100
 Encoding: AdobeStandard
 UnicodeInterp: none
