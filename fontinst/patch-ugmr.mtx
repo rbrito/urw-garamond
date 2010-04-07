@@ -1,0 +1,81 @@
+\relax
+\needsfontinstversion{1.9}
+
+\metrics
+
+% placement of ogonek accent:
+\setcommand\botaccent#1#2#3{
+   \push
+      \movert{\sub{\scale{\width{#1}}{#3}}{\scale{\width{#2}}{500}}}
+      \glyph{#2}{1000}
+   \pop
+   \glyph{#1}{1000}
+}
+\setglyph{Aogonek}
+  \botaccent{A}{ogonek}{750}%{800}%{850}%{900}
+\endsetglyph
+\setglyph{Eogonek}
+   \botaccent{E}{ogonek}{650}%{675}%{700}%%{725}%{750}%{800}%{850}
+\endsetglyph
+\setglyph{aogonek}
+   \botaccent{a}{ogonek}{695}%{700}%{725}%{740}%{750}%{800}%{825}%{850}
+\endsetglyph
+%\setglyph{eogonek}
+%   \botaccent{e}{ogonek}{500}
+%\endsetglyph
+
+
+\setkern{parenleft}{J}{100}
+\setkern{f}{parenright}{90}
+\setkern{bracketleft}{J}{80}
+\setkern{f}{bracketright}{60}
+\setkern{Y}{s}{-101}
+\setkern{Y}{x}{-88}
+\setkern{f}{b}{45}
+\setkern{f}{h}{30}
+\setkern{f}{k}{30}
+\resetkern{g}{f}{25}
+\resetkern{g}{j}{30}
+\setkern{e}{V}{\kerning{V}{e}}
+\setkern{a}{T}{-50}
+\setkern{f}{icircumflex}{037}
+\resetkern{parenleft}{j}{050}
+\resetkern{bracketleft}{j}{025}
+\resetkern{f}{question}{040}
+\resetkern{f}{exclam}{040}
+\resetkern{Y}{q}{-104}
+\resetkern{F}{udieresis}{-16}
+\resetkern{T}{odieresis}{-25}
+\resetkern{V}{odieresis}{-45}
+\resetkern{V}{udieresis}{-15}
+\resetkern{W}{odieresis}{-25}
+\resetkern{W}{udieresis}{-15}
+\resetkern{f}{quoteright}{075}
+\resetkern{f}{quotedblright}{075}
+\resetkern{f}{quoteleft}{060}
+\resetkern{f}{quotedblleft}{060}
+\resetkern{iacute}{b}{025}
+\resetkern{idieresis}{b}{030}
+\resetkern{icircumflex}{b}{020}
+\resetkern{idieresis}{h}{020}
+\setkern{iacute}{h}{020}
+\resetkern{idieresis}{k}{020}
+\setkern{iacute}{k}{020}
+\resetkern{idieresis}{l}{020}
+\setkern{iacute}{l}{020}
+\resetkern{f}{egrave}{015}
+\resetkern{F}{ucircumflex}{-16}
+\resetkern{T}{acircumflex}{-10}
+\resetkern{T}{ecircumflex}{-10}
+\resetkern{T}{ocircumflex}{-10}
+\resetkern{V}{ecircumflex}{-25}
+\resetkern{quotedblbase}{J}{035}
+\resetkern{quotesinglbase}{J}{035}
+
+\resetkern{A}{quoteright}{-89}
+\resetkern{A}{quotedblright}{-89}
+\resetkern{A}{quoteleft}{-89}
+\resetkern{A}{quotedblleft}{-89}
+
+\endmetrics
+

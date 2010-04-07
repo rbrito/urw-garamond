@@ -1,0 +1,53 @@
+% format plain
+\input fontinst.sty
+
+% input AFMs:
+
+\transformfont{ugmr8r}{\reencodefont{8r}{\fromafm{ugmr8a}}}
+\transformfont{ugmri8r}{\reencodefont{8r}{\fromafm{ugmri8a}}}
+\transformfont{ugmm8r}{\reencodefont{8r}{\fromafm{ugmm8a}}}
+\transformfont{ugmmi8r}{\reencodefont{8r}{\fromafm{ugmmi8a}}}
+
+\installfonts
+
+\installfamily{T1}{ugm}{}
+\installfamily{TS1}{ugm}{}
+
+\iffalse
+\installrawfont{ugmr8r} {ugmr8r,8r} {8r}{8r}{ugm}{m}{n}{}
+\installrawfont{ugmri8r}{ugmri8r,8r}{8r}{8r}{ugm}{m}{it}{}
+\installrawfont{ugmm8r} {ugmm8r,8r} {8r}{}{8r}{ugm}{b}{n}{}
+\installrawfont{ugmmi8r}{ugmmi8r,8r}{8r}{8r}{ugm}{b}{it}{}
+\fi
+
+% lf
+
+\installfont{ugmr8t}{ugmr8r,patch-ugmr,patch-gen,latin}{t1}
+  {T1}{ugm}{m}{n}{}
+\installfont{ugmr8c}{ugmr8r,textcomp}{ts1}
+  {TS1}{ugm}{m}{n}{}
+
+% lf
+
+\installfont{ugmri8t}{ugmri8r,patch-ugmri,patch-gen,latin}{t1}
+  {T1}{ugm}{m}{it}{}
+\installfont{ugmri8c}{ugmri8r,textcomp}{ts1}
+  {TS1}{ugm}{m}{it}{}
+
+% lf
+
+\installfont{ugmm8t}{ugmm8r,patch-ugmm,patch-gen,latin}{t1}
+  {T1}{ugm}{b}{n}{}
+\installfont{ugmm8c}{ugmm8r,textcomp}{ts1}
+  {TS1}{ugm}{b}{n}{}
+
+
+\installfont{ugmmi8t}{ugmmi8r,patch-ugmmi,patch-gen,latin}{t1}
+  {T1}{ugm}{b}{it}{}
+\installfont{ugmmi8c}{ugmmi8r,textcomp}{ts1}
+  {TS1}{ugm}{b}{it}{}
+
+
+
+\endinstallfonts
+\bye
