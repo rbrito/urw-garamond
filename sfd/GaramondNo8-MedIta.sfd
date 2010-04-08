@@ -39,7 +39,7 @@ Lookup: 258 0 0 "'kern' Horizontal Kerning in Latim lookup 0"  {"'kern' Horizont
 DEI: 91125
 LangName: 1033 "" "" "" "" "" "" "" "" "" "" "" "" "" "Distribution and Modification of the URW Garamond fonts are subject to the Alladin Free Public License <http://www.artifex.com/downloads/doc/Public.htm>." "http://www.artifex.com/downloads/doc/Public.htm" 
 DesignSize: 100
-Encoding: AdobeStandard
+Encoding: UnicodeBmp
 UnicodeInterp: none
 NameList: Adobe Glyph List
 DisplaySize: -36
@@ -59,7 +59,7 @@ systemdict /internaldict known
 StemSnapV 2 []
 ForceBold 5 false
 EndPrivate
-BeginChars: 353 246
+BeginChars: 65536 246
 
 StartChar: space
 Encoding: 32 32 0
@@ -1630,7 +1630,7 @@ Kerns2: 86 -32 "'kern' Horizontal Kerning in Latim lookup 0 subtable"  83 -26 "'
 EndChar
 
 StartChar: AE
-Encoding: 225 198 27
+Encoding: 198 198 27
 Width: 977
 Flags: W
 TeX: 689 12
@@ -1730,7 +1730,7 @@ EndSplineSet
 EndChar
 
 StartChar: OE
-Encoding: 234 338 28
+Encoding: 338 338 28
 Width: 1033
 Flags: W
 TeX: 722 12
@@ -1804,7 +1804,7 @@ EndSplineSet
 EndChar
 
 StartChar: Oslash
-Encoding: 233 216 29
+Encoding: 216 216 29
 Width: 830
 Flags: MW
 TeX: 753 52
@@ -1851,7 +1851,7 @@ Kerns2: 1 -38 "'kern' Horizontal Kerning in Latim lookup 0 subtable"
 EndChar
 
 StartChar: Adieresis
-Encoding: 256 196 30
+Encoding: 196 196 30
 Width: 738
 Flags: W
 HStem: -6 20 -5 20 0 20
@@ -1917,7 +1917,7 @@ Kerns2: 86 -45 "'kern' Horizontal Kerning in Latim lookup 0 subtable"  84 -39 "'
 EndChar
 
 StartChar: Aacute
-Encoding: 257 193 31
+Encoding: 193 193 31
 Width: 738
 Flags: W
 HStem: -6 20 -5 20 0 20
@@ -1984,7 +1984,7 @@ Kerns2: 86 -45 "'kern' Horizontal Kerning in Latim lookup 0 subtable"  84 -39 "'
 EndChar
 
 StartChar: Agrave
-Encoding: 258 192 32
+Encoding: 192 192 32
 Width: 738
 Flags: W
 HStem: -6 20 -5 20 0 20
@@ -2051,7 +2051,7 @@ Kerns2: 146 -4 "'kern' Horizontal Kerning in Latim lookup 0 subtable"  151 -4 "'
 EndChar
 
 StartChar: Acircumflex
-Encoding: 259 194 33
+Encoding: 194 194 33
 Width: 738
 Flags: W
 HStem: -6 20 -5 20 0 20
@@ -2128,7 +2128,7 @@ Kerns2: 146 -4 "'kern' Horizontal Kerning in Latim lookup 0 subtable"  151 -4 "'
 EndChar
 
 StartChar: Atilde
-Encoding: 260 195 34
+Encoding: 195 195 34
 Width: 738
 Flags: W
 HStem: -6 20 -5 20 0 20 758 82<564 600> 839 82<462.5 467>
@@ -2204,7 +2204,7 @@ Kerns2: 146 -5 "'kern' Horizontal Kerning in Latim lookup 0 subtable"  151 -4 "'
 EndChar
 
 StartChar: Aring
-Encoding: 261 197 35
+Encoding: 197 197 35
 Width: 738
 Flags: W
 HStem: -6 20 -5 20 0 20 744 52<511.5 538.5 511.5 553> 893 52<512 538.5>
@@ -2271,7 +2271,7 @@ Kerns2: 86 -46 "'kern' Horizontal Kerning in Latim lookup 0 subtable"  84 -39 "'
 EndChar
 
 StartChar: Ccedilla
-Encoding: 262 199 36
+Encoding: 199 199 36
 Width: 738
 Flags: W
 HStem: -230 51<308 324.5 308 329.5> -20 44<406 446.5> -18 20 667 44<434 539>
@@ -2323,7 +2323,7 @@ Kerns2: 1 -5 "'kern' Horizontal Kerning in Latim lookup 0 subtable"
 EndChar
 
 StartChar: Eth
-Encoding: 263 208 37
+Encoding: 208 208 37
 Width: 774
 Flags: W
 HStem: -5 43<313.5 411.5 282.5 457.5> 0 20 342 50<102 168 88 183 302 434> 666 43<408.5 504>
@@ -2374,7 +2374,7 @@ EndSplineSet
 EndChar
 
 StartChar: Edieresis
-Encoding: 264 203 38
+Encoding: 203 203 38
 Width: 627
 Flags: W
 HStem: -5 20 0 39<249.5 379.5> 346 46<290 369 369 379 278 369> 650 39<392 476 441 476 441 482> 674 20
@@ -2458,7 +2458,7 @@ EndSplineSet
 EndChar
 
 StartChar: Eacute
-Encoding: 265 201 39
+Encoding: 201 201 39
 Width: 627
 Flags: W
 HStem: -5 20 0 39<249.5 379.5> 346 46<290 369 369 379 278 369> 650 39<392 476 441 476 441 482> 674 20
@@ -2543,7 +2543,7 @@ EndSplineSet
 EndChar
 
 StartChar: Egrave
-Encoding: 266 200 40
+Encoding: 200 200 40
 Width: 627
 Flags: W
 HStem: -5 20 0 39<249.5 379.5> 346 46<290 369 369 379 278 369> 650 39<392 476 441 476 441 482> 674 20
@@ -2628,7 +2628,7 @@ EndSplineSet
 EndChar
 
 StartChar: Ecircumflex
-Encoding: 267 202 41
+Encoding: 202 202 41
 Width: 627
 Flags: W
 HStem: -5 20 0 39<249.5 379.5> 346 46<290 369 369 379 278 369> 650 39<392 476 441 476 441 482> 674 20
@@ -2723,7 +2723,7 @@ EndSplineSet
 EndChar
 
 StartChar: Idieresis
-Encoding: 268 207 42
+Encoding: 207 207 42
 Width: 387
 Flags: W
 HStem: -5 20 0 20 669 20 674 20<171.5 182 460 465.5>
@@ -2779,7 +2779,7 @@ EndSplineSet
 EndChar
 
 StartChar: Iacute
-Encoding: 269 205 43
+Encoding: 205 205 43
 Width: 387
 Flags: W
 HStem: -5 20 0 20 669 20 674 20<170.5 181 459 464.5>
@@ -2836,7 +2836,7 @@ EndSplineSet
 EndChar
 
 StartChar: Igrave
-Encoding: 270 204 44
+Encoding: 204 204 44
 Width: 387
 Flags: W
 HStem: -5 20 0 20 669 20 674 20<171.5 182 460 465.5>
@@ -2893,7 +2893,7 @@ EndSplineSet
 EndChar
 
 StartChar: Icircumflex
-Encoding: 271 206 45
+Encoding: 206 206 45
 Width: 387
 Flags: W
 HStem: -5 20 0 20 669 20 674 20<170.5 181 459 464.5>
@@ -2961,7 +2961,7 @@ EndSplineSet
 EndChar
 
 StartChar: Lslash
-Encoding: 232 321 46
+Encoding: 321 321 46
 Width: 627
 Flags: W
 TeX: 689 12
@@ -3021,7 +3021,7 @@ EndSplineSet
 EndChar
 
 StartChar: Ntilde
-Encoding: 272 209 47
+Encoding: 209 209 47
 Width: 793
 Flags: W
 HStem: -5 20 0 20 669 20 674 20<129 138.5 327 327 669 673 878 882.5> 758 82<591 632.5> 839 82<490 494.5>
@@ -3102,7 +3102,7 @@ EndSplineSet
 EndChar
 
 StartChar: Odieresis
-Encoding: 273 214 48
+Encoding: 214 214 48
 Width: 830
 Flags: MW
 HStem: -20 44<334 429.5 334 516> 667 44<456 551.5>
@@ -3137,7 +3137,7 @@ Kerns2: 25 -70 "'kern' Horizontal Kerning in Latim lookup 0 subtable"  24 -48 "'
 EndChar
 
 StartChar: Oacute
-Encoding: 274 211 49
+Encoding: 211 211 49
 Width: 830
 Flags: MW
 HStem: -20 44<334 429.5 334 516> 667 44<456 551.5>
@@ -3173,7 +3173,7 @@ Kerns2: 25 -70 "'kern' Horizontal Kerning in Latim lookup 0 subtable"  23 -51 "'
 EndChar
 
 StartChar: Ograve
-Encoding: 275 210 50
+Encoding: 210 210 50
 Width: 830
 Flags: MW
 HStem: -20 44<334 429.5 334 516> 667 44<456 551.5>
@@ -3209,7 +3209,7 @@ Kerns2: 25 -70 "'kern' Horizontal Kerning in Latim lookup 0 subtable"  22 -56 "'
 EndChar
 
 StartChar: Ocircumflex
-Encoding: 276 212 51
+Encoding: 212 212 51
 Width: 830
 Flags: MW
 HStem: -20 44<334 429.5 334 516> 667 44<456 551.5>
@@ -3255,7 +3255,7 @@ Kerns2: 25 -70 "'kern' Horizontal Kerning in Latim lookup 0 subtable"  22 -56 "'
 EndChar
 
 StartChar: Otilde
-Encoding: 277 213 52
+Encoding: 213 213 52
 Width: 830
 Flags: W
 HStem: -20 44<334 429.5 334 516> 667 44<456 551.5> 758 82<610 652> 839 82<509 513.5>
@@ -3300,7 +3300,7 @@ Kerns2: 25 -70 "'kern' Horizontal Kerning in Latim lookup 0 subtable"  22 -56 "'
 EndChar
 
 StartChar: Scaron
-Encoding: 278 352 53
+Encoding: 352 352 53
 Width: 498
 Flags: MW
 HStem: -20 44<192.5 243 174.5 288> 667 44<322.5 385.5>
@@ -3368,7 +3368,7 @@ EndSplineSet
 EndChar
 
 StartChar: Udieresis
-Encoding: 279 220 54
+Encoding: 220 220 54
 Width: 812
 Flags: W
 HStem: -21 50<351.5 435.5> 669 20 674 20<165.5 173 443 450 671 677.5 882 888>
@@ -3434,7 +3434,7 @@ Kerns2: 79 -19 "'kern' Horizontal Kerning in Latim lookup 0 subtable"  146 -32 "
 EndChar
 
 StartChar: Uacute
-Encoding: 280 218 55
+Encoding: 218 218 55
 Width: 812
 Flags: W
 HStem: -21 50<351.5 435.5> 669 20 674 20<165.5 173 443 450 671 677.5 882 888>
@@ -3501,7 +3501,7 @@ Kerns2: 79 -19 "'kern' Horizontal Kerning in Latim lookup 0 subtable"  146 -32 "
 EndChar
 
 StartChar: Ugrave
-Encoding: 281 217 56
+Encoding: 217 217 56
 Width: 812
 Flags: W
 HStem: -21 50<351.5 435.5> 669 20 674 20<165.5 173 443 450 671 677.5 882 888>
@@ -3568,7 +3568,7 @@ Kerns2: 1 -53 "'kern' Horizontal Kerning in Latim lookup 0 subtable"
 EndChar
 
 StartChar: Ucircumflex
-Encoding: 282 219 57
+Encoding: 219 219 57
 Width: 812
 Flags: W
 HStem: -21 50<351.5 435.5> 669 20 674 20<165.5 173 443 450 671 677.5 882 888>
@@ -3647,7 +3647,7 @@ Kerns2: 1 -53 "'kern' Horizontal Kerning in Latim lookup 0 subtable"
 EndChar
 
 StartChar: Yacute
-Encoding: 283 221 58
+Encoding: 221 221 58
 Width: 738
 Flags: W
 HStem: -5 20 0 20 669 20<287 291.5 695 696 813 813> 674 20<144 149 583 587 796.5 808> 675 20<406 415.5>
@@ -3722,7 +3722,7 @@ EndSplineSet
 EndChar
 
 StartChar: Zcaron
-Encoding: 284 381 59
+Encoding: 381 381 59
 Width: 664
 Flags: W
 HStem: -5 20 0 20 651 45<246 661 318 517>
@@ -3790,7 +3790,7 @@ EndSplineSet
 EndChar
 
 StartChar: Thorn
-Encoding: 285 222 60
+Encoding: 222 222 60
 Width: 627
 Flags: W
 HStem: -6 20 0 20 146 47<372.5 392.5 349.5 450> 669 20<361 367 367 369.5>
@@ -3849,7 +3849,7 @@ EndSplineSet
 EndChar
 
 StartChar: Ydieresis
-Encoding: 286 376 61
+Encoding: 376 376 61
 Width: 738
 Flags: W
 HStem: -5 20 0 20 669 20<287 291.5 695 696 813 813> 674 20<144 149 583 587 796.5 808> 675 20<406 415.5>
@@ -4992,7 +4992,7 @@ EndSplineSet
 EndChar
 
 StartChar: ae
-Encoding: 241 230 88
+Encoding: 230 230 88
 Width: 701
 Flags: W
 TeX: 465 12
@@ -5039,7 +5039,7 @@ Kerns2: 86 18 "'kern' Horizontal Kerning in Latim lookup 0 subtable"  84 13 "'ke
 EndChar
 
 StartChar: oe
-Encoding: 250 339 89
+Encoding: 339 339 89
 Width: 719
 Flags: W
 TeX: 465 12
@@ -5081,7 +5081,7 @@ EndSplineSet
 EndChar
 
 StartChar: oslash
-Encoding: 249 248 90
+Encoding: 248 248 90
 Width: 480
 Flags: MW
 TeX: 465 12
@@ -5122,7 +5122,7 @@ EndSplineSet
 EndChar
 
 StartChar: germandbls
-Encoding: 251 223 91
+Encoding: 223 223 91
 Width: 535
 Flags: W
 TeX: 774 251
@@ -5165,7 +5165,7 @@ EndSplineSet
 EndChar
 
 StartChar: dotlessi
-Encoding: 245 305 92
+Encoding: 305 305 92
 Width: 313
 Flags: W
 TeX: 465 12
@@ -5197,7 +5197,7 @@ EndSplineSet
 EndChar
 
 StartChar: fi
-Encoding: 174 64257 93
+Encoding: 64257 64257 93
 Width: 556
 Flags: W
 TeX: 753 251
@@ -5254,7 +5254,7 @@ EndSplineSet
 EndChar
 
 StartChar: fl
-Encoding: 175 64258 94
+Encoding: 64258 64258 94
 Width: 556
 Flags: MW
 TeX: 774 251
@@ -5311,7 +5311,7 @@ EndSplineSet
 EndChar
 
 StartChar: adieresis
-Encoding: 287 228 95
+Encoding: 228 228 95
 Width: 516
 Flags: MW
 HStem: -19 89<73 179.5>
@@ -5359,7 +5359,7 @@ Kerns2: 86 -8 "'kern' Horizontal Kerning in Latim lookup 0 subtable"  84 -7 "'ke
 EndChar
 
 StartChar: aacute
-Encoding: 288 225 96
+Encoding: 225 225 96
 Width: 516
 Flags: MW
 HStem: -19 89<73 179.5>
@@ -5408,7 +5408,7 @@ Kerns2: 86 -8 "'kern' Horizontal Kerning in Latim lookup 0 subtable"  84 -7 "'ke
 EndChar
 
 StartChar: agrave
-Encoding: 289 224 97
+Encoding: 224 224 97
 Width: 516
 Flags: MW
 HStem: -19 89<73 179.5>
@@ -5459,7 +5459,7 @@ Kerns2: 86 -8 "'kern' Horizontal Kerning in Latim lookup 0 subtable"  84 -7 "'ke
 EndChar
 
 StartChar: acircumflex
-Encoding: 290 226 98
+Encoding: 226 226 98
 Width: 516
 Flags: MW
 HStem: -19 89<73 179.5>
@@ -5518,7 +5518,7 @@ EndSplineSet
 EndChar
 
 StartChar: atilde
-Encoding: 291 227 99
+Encoding: 227 227 99
 Width: 516
 Flags: W
 HStem: -19 89<73 179.5> 534 84<381.5 382.5> 616 84<269.5 274> 673 20<455.5 458.5>
@@ -5573,7 +5573,7 @@ EndSplineSet
 EndChar
 
 StartChar: aring
-Encoding: 292 229 100
+Encoding: 229 229 100
 Width: 516
 Flags: W
 HStem: -19 89<69 175.5> 507 47<399 431 399 444> 669 47<400 431.5>
@@ -5621,7 +5621,7 @@ Kerns2: 86 -10 "'kern' Horizontal Kerning in Latim lookup 0 subtable"  84 -12 "'
 EndChar
 
 StartChar: ccedilla
-Encoding: 293 231 101
+Encoding: 231 231 101
 Width: 424
 Flags: MW
 HStem: -182 38<150.5 168.5 150.5 168.5> 412 39<256.5 299>
@@ -5660,7 +5660,7 @@ EndSplineSet
 EndChar
 
 StartChar: edieresis
-Encoding: 294 235 102
+Encoding: 235 235 102
 Width: 424
 Flags: MW
 HStem: -19 64<199.5 219> 412 39<276.5 302.5>
@@ -5700,7 +5700,7 @@ EndSplineSet
 EndChar
 
 StartChar: eacute
-Encoding: 295 233 103
+Encoding: 233 233 103
 Width: 424
 Flags: MW
 HStem: -19 64<199.5 219> 412 39<276.5 302.5>
@@ -5742,7 +5742,7 @@ Kerns2: 86 20 "'kern' Horizontal Kerning in Latim lookup 0 subtable"  84 15 "'ke
 EndChar
 
 StartChar: egrave
-Encoding: 296 232 104
+Encoding: 232 232 104
 Width: 424
 Flags: MW
 HStem: -19 64<199.5 219> 412 39<276.5 302.5>
@@ -5783,7 +5783,7 @@ EndSplineSet
 EndChar
 
 StartChar: ecircumflex
-Encoding: 297 234 105
+Encoding: 234 234 105
 Width: 424
 Flags: MW
 HStem: -19 64<199.5 219> 412 39<276.5 302.5>
@@ -5835,7 +5835,7 @@ Kerns2: 86 20 "'kern' Horizontal Kerning in Latim lookup 0 subtable"  84 15 "'ke
 EndChar
 
 StartChar: idieresis
-Encoding: 298 239 106
+Encoding: 239 239 106
 Width: 313
 Flags: W
 HStem: -19 20 431 20<192 229.5>
@@ -5876,7 +5876,7 @@ EndSplineSet
 EndChar
 
 StartChar: iacute
-Encoding: 299 237 107
+Encoding: 237 237 107
 Width: 313
 Flags: W
 HStem: -19 20 431 20<192 229.5>
@@ -5918,7 +5918,7 @@ EndSplineSet
 EndChar
 
 StartChar: igrave
-Encoding: 300 236 108
+Encoding: 236 236 108
 Width: 313
 Flags: W
 HStem: -19 20 431 20<191 228.5>
@@ -5961,7 +5961,7 @@ EndSplineSet
 EndChar
 
 StartChar: icircumflex
-Encoding: 301 238 109
+Encoding: 238 238 109
 Width: 313
 Flags: W
 HStem: -19 20 431 20<192 229.5>
@@ -6014,7 +6014,7 @@ EndSplineSet
 EndChar
 
 StartChar: lslash
-Encoding: 248 322 110
+Encoding: 322 322 110
 Width: 295
 Flags: MW
 TeX: 774 12
@@ -6051,7 +6051,7 @@ EndSplineSet
 EndChar
 
 StartChar: ntilde
-Encoding: 302 241 111
+Encoding: 241 241 111
 Width: 553
 Flags: W
 HStem: -19 20 -13 20 381 70 534 84<399.5 400.5> 616 84<287.5 292> 673 20<474 477>
@@ -6113,7 +6113,7 @@ EndSplineSet
 EndChar
 
 StartChar: odieresis
-Encoding: 303 246 112
+Encoding: 246 246 112
 Width: 480
 Flags: MW
 HStem: -19 38<179.5 210 179.5 264> 431 20<222 335.5>
@@ -6148,7 +6148,7 @@ Kerns2: 86 9 "'kern' Horizontal Kerning in Latim lookup 0 subtable"  85 -6 "'ker
 EndChar
 
 StartChar: oacute
-Encoding: 304 243 113
+Encoding: 243 243 113
 Width: 480
 Flags: MW
 HStem: -19 38<178.5 209 178.5 263> 431 20<221 334.5>
@@ -6184,7 +6184,7 @@ Kerns2: 86 8 "'kern' Horizontal Kerning in Latim lookup 0 subtable"  84 3 "'kern
 EndChar
 
 StartChar: ograve
-Encoding: 305 242 114
+Encoding: 242 242 114
 Width: 479
 Flags: MW
 HStem: -19 38<178.5 209 178.5 263> 431 20<221 334.5>
@@ -6221,7 +6221,7 @@ Kerns2: 86 9 "'kern' Horizontal Kerning in Latim lookup 0 subtable"  84 3 "'kern
 EndChar
 
 StartChar: ocircumflex
-Encoding: 306 244 115
+Encoding: 244 244 115
 Width: 479
 Flags: MW
 HStem: -19 38<178.5 209 178.5 263> 431 20<221 334.5>
@@ -6267,7 +6267,7 @@ Kerns2: 81 -6 "'kern' Horizontal Kerning in Latim lookup 0 subtable"
 EndChar
 
 StartChar: otilde
-Encoding: 307 245 116
+Encoding: 245 245 116
 Width: 480
 Flags: W
 HStem: -19 38<179.5 210 179.5 264> 431 20<222 335.5> 534 84<380.5 382> 616 84<268.5 273.5> 673 20<455 458>
@@ -6309,7 +6309,7 @@ EndSplineSet
 EndChar
 
 StartChar: scaron
-Encoding: 308 353 117
+Encoding: 353 353 117
 Width: 332
 Flags: MW
 HStem: -19 49<146.5 147.5> 394 57<165 254.5>
@@ -6360,7 +6360,7 @@ EndSplineSet
 EndChar
 
 StartChar: udieresis
-Encoding: 309 252 118
+Encoding: 252 252 118
 Width: 535
 Flags: W
 HStem: -19 20 426 20<451 478.5> 431 20<178 218>
@@ -6413,7 +6413,7 @@ EndSplineSet
 EndChar
 
 StartChar: uacute
-Encoding: 310 250 119
+Encoding: 250 250 119
 Width: 535
 Flags: W
 HStem: -19 20 426 20<451 478.5> 431 20<178 218>
@@ -6468,7 +6468,7 @@ EndSplineSet
 EndChar
 
 StartChar: ugrave
-Encoding: 311 249 120
+Encoding: 249 249 120
 Width: 535
 Flags: W
 HStem: -19 20 426 20<451 478.5> 431 20<178 218>
@@ -6522,7 +6522,7 @@ EndSplineSet
 EndChar
 
 StartChar: ucircumflex
-Encoding: 312 251 121
+Encoding: 251 251 121
 Width: 535
 Flags: W
 HStem: -19 20 426 20<451 478.5> 431 20<178 218>
@@ -6586,7 +6586,7 @@ EndSplineSet
 EndChar
 
 StartChar: yacute
-Encoding: 313 253 122
+Encoding: 253 253 122
 Width: 498
 Flags: W
 HStem: -270 78<13.5 96.5> 361 89<130 142> 431 20<420.5 453.5>
@@ -6630,7 +6630,7 @@ EndSplineSet
 EndChar
 
 StartChar: zcaron
-Encoding: 314 382 123
+Encoding: 382 382 123
 Width: 424
 Flags: W
 HStem: -5 20 -4 20 0 40
@@ -6684,7 +6684,7 @@ EndSplineSet
 EndChar
 
 StartChar: eth
-Encoding: 315 240 124
+Encoding: 240 240 124
 Width: 479
 Flags: MW
 HStem: -15 44<175.5 210 175.5 230> 427 44<273 303.5 265 308.5> 671 20<355 355>
@@ -6724,7 +6724,7 @@ EndSplineSet
 EndChar
 
 StartChar: thorn
-Encoding: 316 254 125
+Encoding: 254 254 125
 Width: 553
 Flags: W
 HStem: -270 20 -264 20 -19 40<229.5 258> -10 20 402 49<324.5 460.5>
@@ -6777,7 +6777,7 @@ EndSplineSet
 EndChar
 
 StartChar: ydieresis
-Encoding: 317 255 126
+Encoding: 255 255 126
 Width: 498
 Flags: W
 HStem: -270 78<13.5 96.5> 361 89<130 142> 431 20<420.5 453.5>
@@ -7313,7 +7313,7 @@ EndSplineSet
 EndChar
 
 StartChar: florin
-Encoding: 166 402 140
+Encoding: 402 402 140
 Width: 498
 Flags: MW
 TeX: 753 251
@@ -7356,7 +7356,7 @@ EndSplineSet
 EndChar
 
 StartChar: Euro
-Encoding: 318 8364 141
+Encoding: 8364 8364 141
 Width: 498
 Flags: MW
 HStem: -19 48<238.5 256> 258 52<17 70 38 61 208 311> 384 52<39.5 108 61 89 245 371> 670 47<401.5 444.5>
@@ -7504,7 +7504,7 @@ EndSplineSet
 EndChar
 
 StartChar: onesuperior
-Encoding: 319 185 143
+Encoding: 185 185 143
 Width: 332
 Flags: W
 LayerCount: 2
@@ -7541,7 +7541,7 @@ EndSplineSet
 EndChar
 
 StartChar: twosuperior
-Encoding: 320 178 144
+Encoding: 178 178 144
 Width: 332
 Flags: MW
 HStem: 274 67<305 310.5> 611 64<237 237.5>
@@ -7580,7 +7580,7 @@ EndSplineSet
 EndChar
 
 StartChar: threesuperior
-Encoding: 321 179 145
+Encoding: 179 179 145
 Width: 332
 Flags: W
 HStem: 269 35<171.5 184> 622 53<233.5 295>
@@ -7657,7 +7657,7 @@ EndSplineSet
 EndChar
 
 StartChar: periodcentered
-Encoding: 180 183 148
+Encoding: 183 183 148
 Width: 111
 Flags: W
 TeX: 404 -255
@@ -7674,7 +7674,7 @@ EndSplineSet
 EndChar
 
 StartChar: middot
-Encoding: 322 183 149
+Encoding: 183 183 149
 Width: 111
 Flags: W
 LayerCount: 2
@@ -7689,7 +7689,7 @@ EndSplineSet
 EndChar
 
 StartChar: ellipsis
-Encoding: 188 8230 150
+Encoding: 8230 8230 150
 Width: 830
 Flags: MW
 TeX: 125 12
@@ -7764,7 +7764,7 @@ EndSplineSet
 EndChar
 
 StartChar: quoteleft
-Encoding: 96 8216 153
+Encoding: 8216 8216 153
 Width: 258
 Flags: MW
 TeX: 689 -423
@@ -7788,7 +7788,7 @@ Kerns2: 25 14 "'kern' Horizontal Kerning in Latim lookup 0 subtable"  23 24 "'ke
 EndChar
 
 StartChar: quotedblright
-Encoding: 186 8221 154
+Encoding: 8221 8221 154
 Width: 424
 Flags: MW
 TeX: 689 -423
@@ -7821,7 +7821,7 @@ Kerns2: 25 25 "'kern' Horizontal Kerning in Latim lookup 0 subtable"  23 41 "'ke
 EndChar
 
 StartChar: quotedblleft
-Encoding: 170 8220 155
+Encoding: 8220 8220 155
 Width: 424
 Flags: MW
 TeX: 689 -423
@@ -7854,7 +7854,7 @@ Kerns2: 25 30 "'kern' Horizontal Kerning in Latim lookup 0 subtable"  23 41 "'ke
 EndChar
 
 StartChar: quotedblbase
-Encoding: 185 8222 156
+Encoding: 8222 8222 156
 Width: 424
 Flags: MW
 TeX: 125 149
@@ -8061,7 +8061,7 @@ EndSplineSet
 EndChar
 
 StartChar: guilsinglright
-Encoding: 173 8250 163
+Encoding: 8250 8250 163
 Width: 258
 Flags: W
 TeX: 404 -72
@@ -8081,7 +8081,7 @@ Kerns2: 25 -105 "'kern' Horizontal Kerning in Latim lookup 0 subtable"  23 -84 "
 EndChar
 
 StartChar: guilsinglleft
-Encoding: 172 8249 164
+Encoding: 8249 8249 164
 Width: 258
 Flags: W
 TeX: 404 -72
@@ -8141,7 +8141,7 @@ Kerns2: 25 -69 "'kern' Horizontal Kerning in Latim lookup 0 subtable"  23 -42 "'
 EndChar
 
 StartChar: sfthyphen
-Encoding: 323 173 167
+Encoding: 173 173 167
 Width: 258
 Flags: MW
 HStem: 199 72<35.5 224 45 222>
@@ -8162,7 +8162,7 @@ EndSplineSet
 EndChar
 
 StartChar: endash
-Encoding: 177 8211 168
+Encoding: 8211 8211 168
 Width: 498
 Flags: MW
 TeX: 270 -188
@@ -8184,7 +8184,7 @@ EndSplineSet
 EndChar
 
 StartChar: emdash
-Encoding: 208 8212 169
+Encoding: 8212 8212 169
 Width: 830
 Flags: MW
 TeX: 270 -188
@@ -8422,7 +8422,7 @@ EndSplineSet
 EndChar
 
 StartChar: dagger
-Encoding: 178 8224 176
+Encoding: 8224 8224 176
 Width: 498
 Flags: MW
 TeX: 689 251
@@ -8460,7 +8460,7 @@ EndSplineSet
 EndChar
 
 StartChar: daggerdbl
-Encoding: 179 8225 177
+Encoding: 8225 8225 177
 Width: 498
 Flags: MW
 TeX: 689 184
@@ -8571,7 +8571,7 @@ EndSplineSet
 EndChar
 
 StartChar: quotesingle
-Encoding: 169 39 179
+Encoding: 39 39 179
 Width: 258
 Flags: MW
 TeX: 689 -423
@@ -8751,7 +8751,7 @@ EndSplineSet
 EndChar
 
 StartChar: degree
-Encoding: 324 176 183
+Encoding: 176 176 183
 Width: 498
 Flags: MW
 HStem: 311 61<265.5 329.5 265.5 345.5> 600 61<266.5 330>
@@ -8807,7 +8807,7 @@ EndSplineSet
 EndChar
 
 StartChar: minus
-Encoding: 325 8722 185
+Encoding: 8722 8722 185
 Width: 833
 Flags: MW
 HStem: 214 81<168.5 660 173 660>
@@ -8827,7 +8827,7 @@ EndSplineSet
 EndChar
 
 StartChar: multiply
-Encoding: 326 215 186
+Encoding: 215 215 186
 Width: 830
 Flags: MW
 HStem: -8 20
@@ -8867,7 +8867,7 @@ EndSplineSet
 EndChar
 
 StartChar: divide
-Encoding: 327 247 187
+Encoding: 247 247 187
 Width: 830
 Flags: MW
 HStem: 0 145<394.5 434.5 394.5 434.5> 214 81<166.5 658 171 658> 363 145<394.5 434.5 394.5 434.5>
@@ -8928,7 +8928,7 @@ EndSplineSet
 EndChar
 
 StartChar: trademark
-Encoding: 328 8482 189
+Encoding: 8482 8482 189
 Width: 608
 Flags: MW
 VStem: 235 52<444 647> 441 23<442 444 444 608 608 623.5> 642 52<444 604>
@@ -9015,7 +9015,7 @@ EndSplineSet
 EndChar
 
 StartChar: currency
-Encoding: 168 164 191
+Encoding: 164 164 191
 Width: 498
 Flags: MW
 TeX: 608 -72
@@ -9055,7 +9055,7 @@ EndSplineSet
 EndChar
 
 StartChar: quotesinglbase
-Encoding: 184 8218 192
+Encoding: 8218 8218 192
 Width: 258
 Flags: MW
 TeX: 125 149
@@ -9076,7 +9076,7 @@ EndSplineSet
 EndChar
 
 StartChar: quoteright
-Encoding: 39 8217 193
+Encoding: 8217 8217 193
 Width: 258
 Flags: MW
 TeX: 689 -423
@@ -9167,7 +9167,7 @@ EndSplineSet
 EndChar
 
 StartChar: ordfeminine
-Encoding: 227 170 196
+Encoding: 170 170 196
 Width: 424
 Flags: MW
 TeX: 689 -328
@@ -9209,7 +9209,7 @@ EndSplineSet
 EndChar
 
 StartChar: ordmasculine
-Encoding: 235 186 197
+Encoding: 186 186 197
 Width: 424
 Flags: MW
 TeX: 689 -328
@@ -9235,7 +9235,7 @@ EndSplineSet
 EndChar
 
 StartChar: plusminus
-Encoding: 329 177 198
+Encoding: 177 177 198
 Width: 830
 Flags: MW
 HStem: -127 81<165.5 658 170 658> 214 81<165.5 374 170 374 455 659>
@@ -9277,7 +9277,7 @@ EndSplineSet
 EndChar
 
 StartChar: onehalf
-Encoding: 330 189 199
+Encoding: 189 189 199
 Width: 830
 Flags: W
 HStem: -7 20 -3 67<709 713.5> 0 20 335 64<639 639.5>
@@ -9357,7 +9357,7 @@ EndSplineSet
 EndChar
 
 StartChar: onequarter
-Encoding: 331 188 200
+Encoding: 188 188 200
 Width: 830
 Flags: MW
 HStem: -13 20 99 52<477 630 527 608 691 717 527 673>
@@ -9438,7 +9438,7 @@ EndSplineSet
 EndChar
 
 StartChar: threequarters
-Encoding: 332 190 201
+Encoding: 190 190 201
 Width: 830
 Flags: W
 HStem: -13 20 99 52<487.5 641 538 619 702 728 538 684> 269 35<178.5 191> 622 53<240.5 302>
@@ -9517,7 +9517,7 @@ EndSplineSet
 EndChar
 
 StartChar: fraction
-Encoding: 164 8260 202
+Encoding: 8260 8260 202
 Width: 111
 Flags: MW
 TeX: 658 12
@@ -9587,7 +9587,7 @@ EndSplineSet
 EndChar
 
 StartChar: perthousand
-Encoding: 189 8240 204
+Encoding: 8240 8240 204
 Width: 1143
 Flags: W
 TeX: 689 12
@@ -9664,7 +9664,7 @@ EndSplineSet
 EndChar
 
 StartChar: dieresis
-Encoding: 200 168 206
+Encoding: 168 168 206
 Width: 498
 Flags: W
 TeX: 689 -536
@@ -9685,7 +9685,7 @@ EndSplineSet
 EndChar
 
 StartChar: dotaccent
-Encoding: 199 729 207
+Encoding: 729 729 207
 Width: 498
 Flags: W
 TeX: 689 -536
@@ -9701,7 +9701,7 @@ EndSplineSet
 EndChar
 
 StartChar: ring
-Encoding: 202 730 208
+Encoding: 730 730 208
 Width: 498
 Flags: MW
 TeX: 722 -496
@@ -9724,7 +9724,7 @@ EndSplineSet
 EndChar
 
 StartChar: acute
-Encoding: 194 180 209
+Encoding: 180 180 209
 Width: 498
 Flags: W
 TeX: 753 -536
@@ -9747,7 +9747,7 @@ EndSplineSet
 EndChar
 
 StartChar: grave
-Encoding: 193 96 210
+Encoding: 96 96 210
 Width: 498
 Flags: W
 TeX: 753 -536
@@ -9769,7 +9769,7 @@ EndSplineSet
 EndChar
 
 StartChar: circumflex
-Encoding: 195 710 211
+Encoding: 710 710 211
 Width: 498
 Flags: W
 TeX: 774 -536
@@ -9802,7 +9802,7 @@ EndSplineSet
 EndChar
 
 StartChar: caron
-Encoding: 207 711 212
+Encoding: 711 711 212
 Width: 498
 Flags: W
 TeX: 774 -536
@@ -9834,7 +9834,7 @@ EndSplineSet
 EndChar
 
 StartChar: breve
-Encoding: 198 728 213
+Encoding: 728 728 213
 Width: 498
 Flags: MW
 TeX: 658 -536
@@ -9856,7 +9856,7 @@ EndSplineSet
 EndChar
 
 StartChar: tilde
-Encoding: 196 732 214
+Encoding: 732 732 214
 Width: 498
 Flags: W
 TeX: 689 -536
@@ -9886,7 +9886,7 @@ EndSplineSet
 EndChar
 
 StartChar: hungarumlaut
-Encoding: 205 733 215
+Encoding: 733 733 215
 Width: 498
 Flags: W
 TeX: 753 -536
@@ -9920,7 +9920,7 @@ EndSplineSet
 EndChar
 
 StartChar: cedilla
-Encoding: 203 184 216
+Encoding: 184 184 216
 Width: 498
 Flags: MW
 TeX: 25 184
@@ -9949,7 +9949,7 @@ EndSplineSet
 EndChar
 
 StartChar: ogonek
-Encoding: 206 731 217
+Encoding: 731 731 217
 Width: 498
 Flags: MW
 TeX: 25 184
@@ -9972,7 +9972,7 @@ EndSplineSet
 EndChar
 
 StartChar: macron
-Encoding: 197 175 218
+Encoding: 175 175 218
 Width: 498
 Flags: MW
 TeX: 658 -597
@@ -9989,7 +9989,7 @@ EndSplineSet
 EndChar
 
 StartChar: copyright
-Encoding: 333 169 219
+Encoding: 169 169 219
 Width: 498
 Flags: MW
 HStem: 260 27<340.5 457 340.5 465.5> 364 21<363 401.5> 420 20<475.5 476> 620 20<397.5 446.5 377 449.5> 718 27<339 455.5>
@@ -10034,7 +10034,7 @@ EndSplineSet
 EndChar
 
 StartChar: registered
-Encoding: 334 174 220
+Encoding: 174 174 220
 Width: 498
 Flags: MW
 HStem: 260 27<340.5 457 340.5 465.5> 618 20<417.5 445> 718 27<339 455.5>
@@ -10104,14 +10104,14 @@ EndSplineSet
 EndChar
 
 StartChar: nbspace
-Encoding: 335 160 221
+Encoding: 160 160 221
 Width: 258
 Flags: W
 LayerCount: 2
 EndChar
 
 StartChar: bullet
-Encoding: 183 8226 222
+Encoding: 8226 8226 222
 Width: 498
 Flags: W
 TeX: 525 -188
@@ -10127,7 +10127,7 @@ EndSplineSet
 EndChar
 
 StartChar: lozenge
-Encoding: 336 9674 223
+Encoding: 9674 9674 223
 Width: 667
 Flags: MW
 HStem: 673 20<334 334>
@@ -10148,7 +10148,7 @@ EndSplineSet
 EndChar
 
 StartChar: increment
-Encoding: 337 8710 224
+Encoding: 8710 8710 224
 Width: 667
 Flags: MW
 HStem: 0 127<19 448 138 448 138 650>
@@ -10167,7 +10167,7 @@ EndSplineSet
 EndChar
 
 StartChar: notequal
-Encoding: 338 8800 225
+Encoding: 8800 8800 225
 Width: 1000
 Flags: MW
 HStem: 137 81<196 340 196 408 512 818 196 443> 336 81<196 509 196 577 681 818 196 612>
@@ -10199,7 +10199,7 @@ EndSplineSet
 EndChar
 
 StartChar: radical
-Encoding: 339 8730 226
+Encoding: 8730 8730 226
 Width: 722
 Flags: MW
 HStem: 0 20 850 48<759 844 759 759>
@@ -10221,7 +10221,7 @@ EndSplineSet
 EndChar
 
 StartChar: integral
-Encoding: 340 8747 227
+Encoding: 8747 8747 227
 Width: 1000
 Flags: MW
 HStem: -220 42<468.5 480 468.5 496> 725 44<524 580>
@@ -10253,7 +10253,7 @@ EndSplineSet
 EndChar
 
 StartChar: approxequal
-Encoding: 341 8776 228
+Encoding: 8776 8776 228
 Width: 1000
 Flags: W
 HStem: 114 92<671 689> 181 92<358.5 361.5> 276 92<671 688.5> 343 92<358 361.5> 416 20<806 806>
@@ -10290,7 +10290,7 @@ EndSplineSet
 EndChar
 
 StartChar: lessequal
-Encoding: 342 8804 229
+Encoding: 8804 8804 229
 Width: 1000
 Flags: MW
 HStem: 0 82<205 826 205 826>
@@ -10314,7 +10314,7 @@ EndSplineSet
 EndChar
 
 StartChar: greaterequal
-Encoding: 343 8805 230
+Encoding: 8805 8805 230
 Width: 1000
 Flags: MW
 HStem: 0 82<206 827 206 827>
@@ -10338,7 +10338,7 @@ EndSplineSet
 EndChar
 
 StartChar: infinity
-Encoding: 344 8734 231
+Encoding: 8734 8734 231
 Width: 1000
 Flags: W
 HStem: 70 96<316 340 274.5 365> 92 95<670 724.5 670 736.5> 365 97<674.5 725> 387 98<287.5 357>
@@ -10375,7 +10375,7 @@ EndSplineSet
 EndChar
 
 StartChar: product
-Encoding: 345 8719 232
+Encoding: 8719 8719 232
 Width: 667
 Flags: MW
 HStem: 648 19<-6 19 -6 672 238 266 266 402 621 649 649 672>
@@ -10416,7 +10416,7 @@ EndSplineSet
 EndChar
 
 StartChar: summation
-Encoding: 346 8721 233
+Encoding: 8721 8721 233
 Width: 1000
 Flags: MW
 HStem: -199 120<360 605 605 664 360 785> 621 65<396 605 396 396>
@@ -10442,7 +10442,7 @@ EndSplineSet
 EndChar
 
 StartChar: partialdiff
-Encoding: 347 8706 234
+Encoding: 8706 8706 234
 Width: 500
 Flags: MW
 HStem: -15 51<191 231.5 191 280.5> 376 52<244.5 276.5 208 278.5> 643 60<285.5 301.5>
@@ -10474,7 +10474,7 @@ EndSplineSet
 EndChar
 
 StartChar: pi
-Encoding: 348 960 235
+Encoding: 960 960 235
 Width: 611
 Flags: W
 HStem: -15 20 -14 20 336 93<163.5 583 240 247 292 372 292 292 419 561 419 419>
@@ -10508,7 +10508,7 @@ EndSplineSet
 EndChar
 
 StartChar: Ohm
-Encoding: 349 8486 236
+Encoding: 8486 8486 236
 Width: 611
 Flags: MW
 HStem: 0 128<141.5 162 141.5 282 76 162 455 475> 656 48<270 327.5>
@@ -10582,7 +10582,7 @@ EndSplineSet
 EndChar
 
 StartChar: logicalnot
-Encoding: 350 172 239
+Encoding: 172 172 239
 Width: 830
 Flags: MW
 HStem: 317 81<166.5 658 171 590>
@@ -10644,7 +10644,7 @@ EndSplineSet
 EndChar
 
 StartChar: brokenbar
-Encoding: 351 166 242
+Encoding: 166 166 242
 Width: 498
 Flags: MW
 VStem: 223 51<-224 224 -224 224 276 724>
@@ -10707,7 +10707,7 @@ EndSplineSet
 EndChar
 
 StartChar: mu
-Encoding: 352 956 245
+Encoding: 956 956 245
 Width: 553
 Flags: W
 HStem: -17 75<423.5 441.5> -15 73<206.5 225 206.5 233>
