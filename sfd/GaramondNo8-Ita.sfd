@@ -19,7 +19,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1103644740
-ModificationTime: 1270963933
+ModificationTime: 1270964907
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -46,7 +46,7 @@ NameList: Adobe Glyph List
 DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 39 15
+WinInfo: 585 39 15
 BeginPrivate: 7
 BlueValues 31 [-20 0 425 445 689 709 663 683]
 BlueScale 8 0.039625
@@ -60,7 +60,7 @@ systemdict /internaldict known
 StemSnapV 2 []
 ForceBold 5 false
 EndPrivate
-BeginChars: 65536 248
+BeginChars: 65536 265
 
 StartChar: space
 Encoding: 32 32 0
@@ -10735,6 +10735,178 @@ Flags: H
 LayerCount: 2
 Fore
 Refer: 245 956 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Alpha
+Encoding: 913 913 248
+Width: 701
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+Refer: 1 65 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Beta
+Encoding: 914 914 249
+Width: 572
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+Refer: 2 66 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Epsilon
+Encoding: 917 917 250
+Width: 590
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+Refer: 5 69 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Zeta
+Encoding: 918 918 251
+Width: 627
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+Refer: 26 90 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Eta
+Encoding: 919 919 252
+Width: 774
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+Refer: 8 72 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Iota
+Encoding: 921 921 253
+Width: 332
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+Refer: 9 73 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Kappa
+Encoding: 922 922 254
+Width: 682
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+Refer: 11 75 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Mu
+Encoding: 924 924 255
+Width: 774
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+Refer: 13 77 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Nu
+Encoding: 925 925 256
+Width: 738
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+Refer: 14 78 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Omicron
+Encoding: 927 927 257
+Width: 793
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+Refer: 15 79 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Rho
+Encoding: 929 929 258
+Width: 553
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+Refer: 16 80 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Tau
+Encoding: 932 932 259
+Width: 608
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+Refer: 20 84 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Upsilon
+Encoding: 933 933 260
+Width: 664
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+Refer: 25 89 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Chi
+Encoding: 935 935 261
+Width: 701
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+Refer: 24 88 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Iotadieresis
+Encoding: 938 938 262
+Width: 332
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+Refer: 206 168 N 1 0 0 1 126.847 217 2
+Refer: 253 921 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Upsilondieresis
+Encoding: 939 939 263
+Width: 664
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+Refer: 206 168 N 1 0 0 1 163.134 217 2
+Refer: 260 933 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: omicron
+Encoding: 959 959 264
+Width: 461
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+Refer: 76 111 N 1 0 0 1 0 0 3
 EndChar
 EndChars
 EndSplineFont
