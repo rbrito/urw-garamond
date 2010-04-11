@@ -19,7 +19,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1103644740
-ModificationTime: 1270675059
+ModificationTime: 1270951552
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -34,6 +34,7 @@ HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'PfEd'
+Lookup: 4 0 1 "'frac' Diagonal Fractions lookup 0"  {"'frac' Diagonal Fractions lookup 0-1"  } ['frac' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 258 0 0 "'kern' Horizontal Kerning lookup 0"  {"'kern' Horizontal Kerning lookup 0 subtable"  } ['kern' ('DFLT' <'dflt' > ) ]
 Lookup: 258 0 0 "'kern' Horizontal Kerning in Latim lookup 0"  {"'kern' Horizontal Kerning in Latim lookup 0 subtable"  } ['kern' ('latn' <'dflt' > ) ]
 DEI: 91125
@@ -45,7 +46,7 @@ NameList: Adobe Glyph List
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 52 26 11
+WinInfo: 27 27 11
 BeginPrivate: 7
 BlueValues 31 [-20 0 425 445 689 709 663 683]
 BlueScale 8 0.039625
@@ -9340,6 +9341,8 @@ SplineSet
  689 400 728 364 728 313 c 0
  728 233 668 153 531 50 c 1x70
 EndSplineSet
+Ligature2: "'frac' Diagonal Fractions lookup 0-1" one slash two
+Ligature2: "'frac' Diagonal Fractions lookup 0-1" one fraction two
 EndChar
 
 StartChar: onequarter
@@ -9418,6 +9421,8 @@ SplineSet
  481 158 l 1
  580 158 l 1
 EndSplineSet
+Ligature2: "'frac' Diagonal Fractions lookup 0-1" one slash four
+Ligature2: "'frac' Diagonal Fractions lookup 0-1" one fraction four
 EndChar
 
 StartChar: threequarters
@@ -9497,6 +9502,8 @@ SplineSet
  490 158 l 1
  589 158 l 1
 EndSplineSet
+Ligature2: "'frac' Diagonal Fractions lookup 0-1" three slash four
+Ligature2: "'frac' Diagonal Fractions lookup 0-1" three fraction four
 EndChar
 
 StartChar: fraction
