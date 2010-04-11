@@ -3,7 +3,7 @@ FontName: GaramondNo8-Regular
 FullName: GaramondNo8 Regular
 FamilyName: GaramondNo8
 Weight: Regular
-Copyright: Copyright © 2000 (URW)++ Design & Development\nCopyright © 2005 Walter Schmidt\nCopyright © 2010 Rogério Theodoro de Brito
+Copyright: Copyright 2000 (URW)++ Design & Development\nCopyright 2005 Walter Schmidt\nCopyright 2010 Rogerio Theodoro de Brito
 Version: 1.06
 ItalicAngle: 0
 UnderlinePosition: -225
@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1094484720
-ModificationTime: 1270961460
+ModificationTime: 1270962181
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -49,10 +49,10 @@ DesignSize: 100
 Encoding: UnicodeBmp
 UnicodeInterp: none
 NameList: Adobe Glyph List
-DisplaySize: -96
+DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 550 10 5
+WinInfo: 240 40 15
 BeginPrivate: 7
 BlueValues 23 [-20 0 420 440 689 709]
 BlueScale 8 0.039625
@@ -10951,7 +10951,7 @@ EndChar
 StartChar: uni0237
 Encoding: 567 567 246
 Width: 258
-Flags: HWO
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet

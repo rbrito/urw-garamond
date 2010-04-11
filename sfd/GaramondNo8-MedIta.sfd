@@ -3,7 +3,7 @@ FontName: GaramondNo8-Medium-Italic
 FullName: GaramondNo8 Medium Italic
 FamilyName: GaramondNo8
 Weight: Medium
-Copyright: Copyright © 2000 (URW)++ Design & Development\nCopyright © 2005 Walter Schmidt\nCopyright © 2010 Rogério Theodoro de Brito
+Copyright: Copyright 2000 (URW)++ Design & Development\nCopyright 2005 Walter Schmidt\nCopyright 2010 Rogerio Theodoro de Brito
 Version: 1.06
 ItalicAngle: -16
 UnderlinePosition: -225
@@ -19,7 +19,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1094484720
-ModificationTime: 1270961707
+ModificationTime: 1270962353
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -43,10 +43,10 @@ DesignSize: 100
 Encoding: UnicodeBmp
 UnicodeInterp: none
 NameList: Adobe Glyph List
-DisplaySize: -96
+DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 550 10 5
+WinInfo: 0 40 15
 BeginPrivate: 7
 BlueValues 31 [-20 0 432 452 689 711 653 673]
 BlueScale 8 0.039625
