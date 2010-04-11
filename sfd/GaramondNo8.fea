@@ -1,0 +1,27 @@
+# GSUB
+
+# fractions
+lookup DiagonalFractions {
+  lookupflag 0;
+    sub \one   \slash    \two   by \onehalf;
+    sub \one   \fraction \two   by \onehalf;
+    sub \one   \slash    \four  by \onequarter;
+    sub \one   \fraction \four  by \onequarter;
+    sub \three \slash    \four  by \threequarters;
+    sub \three \fraction \four  by \threequarters;
+} DiagonalFractions;
+
+feature frac {
+  script DFLT;
+     language dflt ;
+      lookup DiagonalFractions;
+
+  script grek;
+     language dflt ;
+      lookup DiagonalFractions;
+
+  script latn;
+     language dflt ;
+      lookup DiagonalFractions;
+} frac;
+
