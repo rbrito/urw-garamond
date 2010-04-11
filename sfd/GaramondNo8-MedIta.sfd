@@ -19,7 +19,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1094484720
-ModificationTime: 1270951552
+ModificationTime: 1270961707
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -43,10 +43,10 @@ DesignSize: 100
 Encoding: UnicodeBmp
 UnicodeInterp: none
 NameList: Adobe Glyph List
-DisplaySize: -36
+DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 27 27 11
+WinInfo: 550 10 5
 BeginPrivate: 7
 BlueValues 31 [-20 0 432 452 689 711 653 673]
 BlueScale 8 0.039625
@@ -60,7 +60,7 @@ systemdict /internaldict known
 StemSnapV 2 []
 ForceBold 5 false
 EndPrivate
-BeginChars: 65536 246
+BeginChars: 65536 247
 
 StartChar: space
 Encoding: 32 32 0
@@ -10745,6 +10745,36 @@ SplineSet
  34 -202 20 -189 20 -166 c 0
  20 -156 23 -137 27 -116 c 2
  139 412 l 1x40
+EndSplineSet
+EndChar
+
+StartChar: uni0237
+Encoding: 567 567 246
+Width: 295
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+29 -164 m 2
+ 152 280 l 2
+ 161 312 165 332 165 342 c 0
+ 165 352 157 361 148 361 c 0
+ 134 361 111 345 82 315 c 0
+ 71 304 68 301 65 301 c 0
+ 64 301 64 301 59 306 c 2
+ 50 315 l 2
+ 45 319 45 320 45 321 c 0
+ 45 326 67 351 98 382 c 0
+ 147 433 179 451 216 451 c 0
+ 254 451 277 429 277 392 c 0
+ 277 365 273 345 236 207 c 0
+ 191 39 174 -10 131 -99 c 0
+ 76 -215 19 -270 -45 -270 c 0
+ -76 -270 -99 -248 -99 -219 c 0
+ -99 -192 -83 -173 -59 -173 c 0
+ -41 -173 -31 -181 -15 -204 c 0
+ -11 -210 -7 -213 -1 -213 c 0
+ 13 -213 18 -206 29 -164 c 2
 EndSplineSet
 EndChar
 EndChars
