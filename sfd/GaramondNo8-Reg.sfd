@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1094484720
-ModificationTime: 1270962181
+ModificationTime: 1270963887
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -49,10 +49,10 @@ DesignSize: 100
 Encoding: UnicodeBmp
 UnicodeInterp: none
 NameList: Adobe Glyph List
-DisplaySize: -24
+DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 240 40 15
+WinInfo: 0 20 9
 BeginPrivate: 7
 BlueValues 23 [-20 0 420 440 689 709]
 BlueScale 8 0.039625
@@ -70,7 +70,7 @@ systemdict /internaldict known
 { true } ifelse { pop [75 89] } if
 ForceBold 5 false
 EndPrivate
-BeginChars: 65536 247
+BeginChars: 65536 248
 
 StartChar: space
 Encoding: 32 32 0
@@ -10970,6 +10970,16 @@ SplineSet
  91 267 l 2
  91 336 89 339 39 365 c 1xd0
 EndSplineSet
+EndChar
+
+StartChar: uni00B5
+Encoding: 181 181 247
+Width: 553
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+Refer: 245 956 N 1 0 0 1 0 0 3
 EndChar
 EndChars
 EndSplineFont

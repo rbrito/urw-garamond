@@ -19,7 +19,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1103644740
-ModificationTime: 1270961569
+ModificationTime: 1270963933
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -46,7 +46,7 @@ NameList: Adobe Glyph List
 DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 40 15
+WinInfo: 0 39 15
 BeginPrivate: 7
 BlueValues 31 [-20 0 425 445 689 709 663 683]
 BlueScale 8 0.039625
@@ -60,7 +60,7 @@ systemdict /internaldict known
 StemSnapV 2 []
 ForceBold 5 false
 EndPrivate
-BeginChars: 65536 247
+BeginChars: 65536 248
 
 StartChar: space
 Encoding: 32 32 0
@@ -10725,6 +10725,16 @@ SplineSet
  -53 -208 -49 -210 -46 -210 c 0
  -33 -210 -25 -196 -11 -146 c 2xf0
 EndSplineSet
+EndChar
+
+StartChar: uni00B5
+Encoding: 181 181 247
+Width: 553
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+Refer: 245 956 N 1 0 0 1 0 0 3
 EndChar
 EndChars
 EndSplineFont
