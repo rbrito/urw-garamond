@@ -25,3 +25,23 @@ feature frac {
       lookup DiagonalFractions;
 } frac;
 
+# f ligatures
+lookup StandardLigatures {
+  lookupflag 0;
+    sub \f \i by \fi;
+    sub \f \l by \fl;
+} StandardLigatures;
+
+feature liga {
+  script DFLT;
+     language dflt ;
+      lookup StandardLigatures;
+
+  script grek;
+     language dflt ;
+      lookup StandardLigatures;
+
+  script latn;
+     language dflt ;
+      lookup StandardLigatures;
+} liga;
