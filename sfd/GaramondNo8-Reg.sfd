@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1094484720
-ModificationTime: 1271099004
+ModificationTime: 1271100299
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -52,7 +52,7 @@ NameList: Adobe Glyph List
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 220 10 5
+WinInfo: 240 10 5
 BeginPrivate: 7
 BlueValues 23 [-20 0 420 440 689 709]
 BlueScale 8 0.039625
@@ -11204,10 +11204,10 @@ StartChar: Aogonek
 Encoding: 260 260 269
 Width: 756
 VWidth: 0
-Flags: H
+Flags: HO
 LayerCount: 2
 Fore
-Refer: 217 731 N 1 0 0 1 38 -21.3333 2
+Refer: 217 731 S 1 0 0 1 276 -21.3333 2
 Refer: 1 65 N 1 0 0 1 0 0 2
 EndChar
 

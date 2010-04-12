@@ -19,7 +19,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1094484720
-ModificationTime: 1271099449
+ModificationTime: 1271100404
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -11085,10 +11085,10 @@ StartChar: Aogonek
 Encoding: 260 260 269
 Width: 756
 VWidth: 0
-Flags: H
+Flags: HO
 LayerCount: 2
 Fore
-Refer: 217 731 N 1 0 0 1 14 -37.2667 2
+Refer: 217 731 S 1 0 0 1 246 -37.2667 2
 Refer: 1 65 N 1 0 0 1 0 0 2
 EndChar
 
