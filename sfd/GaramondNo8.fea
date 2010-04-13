@@ -45,3 +45,23 @@ feature liga {
      language dflt ;
       lookup StandardLigatures;
 } liga;
+
+# swashes
+lookup SwashAlternates {
+  lookupflag 0;
+    sub \Q by \Q.swsh ;
+} SwashAlternates;
+
+feature swsh {
+  script DFLT;
+     language dflt ;
+      lookup SwashAlternates;
+
+  script grek;
+     language dflt ;
+      lookup SwashAlternates;
+
+  script latn;
+     language dflt ;
+      lookup SwashAlternates;
+} swsh;
