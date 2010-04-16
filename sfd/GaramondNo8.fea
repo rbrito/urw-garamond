@@ -95,8 +95,8 @@ lookup SmallCapitals {
     sub \x by \x.sc ;
     sub \y by \y.sc ;
     sub \z by \z.sc ;
-    sub \fi by \f.sc \i.sc ;
-    sub \fl by \f.sc \l.sc ;
+#    sub \fi by \f.sc \i.sc ;
+#    sub \fl by \f.sc \l.sc ;
 } SmallCapitals;
 
 lookup CapitalstoSmallCapitals {
