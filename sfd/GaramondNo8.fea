@@ -28,8 +28,11 @@ feature frac {
 # f ligatures
 lookup StandardLigatures {
   lookupflag 0;
+    sub \f \f by \ff;
     sub \f \i by \fi;
     sub \f \l by \fl;
+    sub \f \f \i by \ffi;
+    sub \f \f \l by \ffl;
 } StandardLigatures;
 
 feature liga {
