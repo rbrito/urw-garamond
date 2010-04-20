@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1094484720
-ModificationTime: 1271768421
+ModificationTime: 1271786282
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -108,7 +108,7 @@ NameList: Adobe Glyph List
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 65436 19 8
+WinInfo: 65429 13 5
 BeginPrivate: 7
 BlueValues 23 [-20 0 420 440 689 709]
 BlueScale 8 0.039625
@@ -126,6 +126,12 @@ systemdict /internaldict known
 { true } ifelse { pop [75 89] } if
 ForceBold 5 false
 EndPrivate
+Grid
+-500 739 m 25
+ 1500 739 l 25
+-500 430 m 25
+ 1500 430 l 25
+EndSplineSet
 TeXData: 1 0 0 270532 135266 90177 447742 1048576 90177 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 BeginChars: 65580 723
 
