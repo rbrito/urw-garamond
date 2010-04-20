@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1094484720
-ModificationTime: 1271761929
+ModificationTime: 1271763398
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -108,7 +108,7 @@ NameList: Adobe Glyph List
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 65448 12 5
+WinInfo: 950 19 8
 BeginPrivate: 7
 BlueValues 23 [-20 0 420 440 689 709]
 BlueScale 8 0.039625
@@ -127,7 +127,7 @@ systemdict /internaldict known
 ForceBold 5 false
 EndPrivate
 TeXData: 1 0 0 270532 135266 90177 447742 1048576 90177 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 65580 711
+BeginChars: 65580 726
 
 StartChar: space
 Encoding: 32 32 0
@@ -24540,6 +24540,158 @@ Width: 258
 VWidth: 1199
 Flags: W
 LayerCount: 2
+EndChar
+
+StartChar: iotadieresis
+Encoding: 970 970 711
+Width: 277
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+Refer: 206 168 N 1 0 0 1 -103 -47 2
+Refer: 441 953 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: upsilondieresis
+Encoding: 971 971 712
+Width: 444
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+Refer: 206 168 N 1 0 0 1 -127 -47 2
+Refer: 450 965 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Upsilon1
+Encoding: 978 978 713
+Width: 719
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+Refer: 260 933 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni03D4
+Encoding: 980 980 714
+Width: 719
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+Refer: 206 168 N 1 0 0 1 117 223 2
+Refer: 713 978 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni03F0
+Encoding: 1008 1008 715
+Width: 444
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+Refer: 442 954 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni03F1
+Encoding: 1009 1009 716
+Width: 500
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+Refer: 446 961 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni03F2
+Encoding: 1010 1010 717
+Width: 500
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+Refer: 447 962 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni03F4
+Encoding: 1012 1012 718
+Width: 722
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+Refer: 425 920 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni03F5
+Encoding: 1013 1013 719
+Width: 444
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+Refer: 437 949 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni03F9
+Encoding: 1017 1017 720
+Width: 611
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+Refer: 429 931 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni03D0
+Encoding: 976 976 721
+Width: 555
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+Refer: 434 946 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Delta
+Encoding: 916 916 722
+Width: 667
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 224 8710 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni037E
+Encoding: 894 894 723
+Width: 258
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+Refer: 152 59 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: anoteleia
+Encoding: 903 903 724
+Width: 258
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+Refer: 148 183 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: acutecomb
+Encoding: 769 769 725
+Width: 479
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+Refer: 209 180 N 1 0 0 1 0 0 3
 EndChar
 EndChars
 EndSplineFont
