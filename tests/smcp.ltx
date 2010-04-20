@@ -1,16 +1,15 @@
 \documentclass{article}
+\usepackage{lipsum}
 \usepackage{fontspec}
 
 \setmainfont{GaramondNo8}
 
 \begin{document}
+\textsc{\lipsum[1]}
 
-\textsc{\input{knuth}}
+\textbf{\textsc{\lipsum[1]}}
 
-\textbf{\textsc{\input{knuth}}}
+\textit{\textsc{\lipsum[1]}}
 
-\textit{\textsc{\input{knuth}}}
-
-\textbf{\textit{\textsc{\input{knuth}}}}
-
+\textbf{\textit{\textsc{\lipsum[1]}}}
 \end{document}
