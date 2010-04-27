@@ -3,26 +3,13 @@
 import sys
 import fontforge
 
-# Does not work and generates an internal error in fontforge
-def slant_not_working(file):
-    f = fontforge.open(file)
-    f.selection.all()
-    f.italicize(italic_angle = -16)
-    f.generate(f.fullname + ".otf", flags=("opentype", "TeX-table", "round"))
-    f.close()
+feature_file = "GaramondNo8.fea"
 
-# Works, but some messages are output
-# (perhaps something is being done incorrectly?)
 def slant(file):
     f = fontforge.open(file)
-    f.selection.all()
-    f.copy()
-    g = fontforge.font()
-    g.selection.all()
-    g.paste()
-    g.italicize(italic_angle = -16)
-    g.generate(f.fullname + ".otf", flags=("opentype", "TeX-table", "round"))
-    g.close()
+    f.mergeFeature(feature_file)
+    f.italicize(italic_angle = -16)
+    f.generate(f.fullname + ".otf", flags=("opentype", "TeX-table", "round"))
     f.close()
 
 if __name__ == "__main__":
