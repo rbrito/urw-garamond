@@ -11,8 +11,8 @@ lookup DiagonalFractions {
     sub \three \slash    \four  by \threequarters;
     sub \three \fraction \four  by \threequarters;
 
-    sub \one   \slash    \eight by \oneeighths;
-    sub \one   \fraction \eight by \oneeighths;
+    sub \one   \slash    \eight by \oneeighth;
+    sub \one   \fraction \eight by \oneeighth;
     sub \three \slash    \eight by \threeeighths;
     sub \three \fraction \eight by \threeeighths;
     sub \five  \slash    \eight by \fiveeighths;
