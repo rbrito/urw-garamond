@@ -5,10 +5,20 @@ lookup DiagonalFractions {
   lookupflag 0;
     sub \one   \slash    \two   by \onehalf;
     sub \one   \fraction \two   by \onehalf;
+
     sub \one   \slash    \four  by \onequarter;
     sub \one   \fraction \four  by \onequarter;
     sub \three \slash    \four  by \threequarters;
     sub \three \fraction \four  by \threequarters;
+
+    sub \one   \slash    \eight by \oneeighths;
+    sub \one   \fraction \eight by \oneeighths;
+    sub \three \slash    \eight by \threeeighths;
+    sub \three \fraction \eight by \threeeighths;
+    sub \five  \slash    \eight by \fiveeighths;
+    sub \five  \fraction \eight by \fiveeighths;
+    sub \seven \slash    \eight by \seveneighths;
+    sub \seven \fraction \eight by \seveneighths;
 } DiagonalFractions;
 
 feature frac {
